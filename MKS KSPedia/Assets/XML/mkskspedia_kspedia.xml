@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587213289839969160">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587213171848943782">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -216,13 +216,66 @@
         <Text Name="Heading">
           <Text>Parts &amp; Supplies Manufacturing</Text>
         </Text>
+        <Text Name="Heading (1)">
+          <Text>Overview
+Once you have processed your raw materials into refined materials you can the use these to manufacture MaterialKits, SpecializedParts or Colony Supplies. You can then use these to keep your colonies vital supplies stocked.
+Workshop and Assembly Plant Modules will require a Kerbal with the engineer effect to be present in the vessel for peak operation (based on star level).
+Agriculture Modules will require a Kerbal with the science effect to be present in the vessel for peak operation (based on star level).
+All processes require their parts to be filled with machinery to reach 100% efficiency and will slowly consume machinery while outputting recyclables. Processes substituting Dirt for Substrate are much less efficient.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>'Ranger' Inflatable Workshop - An inflatable workshop suitable for small-scale fabrication. Can be configured as either MaterialKits or Machinery production. Can be converted to an efficiency part [Workshop] to enhance the 'Tundra' Assembly Plant. Engineers onboard will also perform automatic maintenance of all modules within 150m keeping your production lines fully stocked whic requires a reserve of machinery. See 'Ranger Inflatables' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>'Tundra' Assembly Plant - An off-world manufacturing facility suitable for large-scale fabrication. Can be configured as either MaterialKits, Machinery, ColonySupplies or SpecializedParts production. Can take advantage of the 'Ranger' Inflatable Workshop [Workshop] to increase the efficiency. Engineers on-board will also perform automatic maintenance. See 'Efficiency &amp; Load' for more info. . .</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>'Ranger' Agriculture Module - An expandable greenhouse that can be configured as an algae-based farm and biological filter using either recycled waste (yuck!) or local resources (either substrate or dirt, plus water). Requires fertilizer, and can be used to supplement larger greenhouse-type modules.</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>'Duna' Agriculture Module -This module brings more advanced farming techniques to your colony. While it's own space is limited, it can take advantage of 'Ranger' Agriculture Module in [GreenHouse] to increase efficiency. See 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>'Tundra' Agriculture Module - This module brings larger advanced farming techniques to your colony.  It can take advantage of 'Ranger' Agriculture Module in [GreenHouse] mode to increase efficiency. See 'Efficiency &amp; Load' for more info. . .</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>Metals, Chemicals, Polymers  → MaterialKits
+MaterialKits, SpecializedParts → Machinery
+[Workshop] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>Metals, Chemicals, Polymers → MaterialKits
+MaterialKits, SpecializedParts → Machinery
+Silicon, RefinedExotics → SpecializedParts
+MaterialKits, SpecializedParts, Organics → ColonySupplies</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>Mulch, Fertilizer → Supplies
+Substrate, Water, Fertilizer → Supplies
+Dirt, Water, Fertilizer → Supplies
+[GreenHouse] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>Mulch, Fertilizer → Supplies
+Substrate, Water, Fertilizer → Supplies
+Dirt, Water, Fertilizer → Supplies
+Substrate, Water, Fertilizer, Organics → Organics
+Dirt, Water, Fertilizer, Organics → Organics</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>Mulch, Fertilizer → Supplies
+Substrate, Water, Fertilizer → Supplies
+Dirt, Water, Fertilizer → Supplies
+Substrate, Water, Fertilizer, Organics → Organics
+Dirt, Water, Fertilizer, Organics → Organics</Text>
+        </Text>
       </Text>
       <Tooltips />
     </Screen>
     <Screen Name="6 - 4 Resource Processing">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/6 - 4 Resource Processing.prefab</AssetPath>
-      <Title>Resource Processing</Title>
+      <Title>Resource Production</Title>
       <Background />
       <Text>
         <Text Name="Heading">
@@ -242,7 +295,8 @@ Polymers</Text>
         </Text>
         <Text Name="Heading (4)">
           <Text>Silicon
-Refined Exotics</Text>
+Refined Exotics
+Fertilizer</Text>
         </Text>
         <Text Name="Heading (5)">
           <Text>'Ranger' Regolith Sifter - Shovel in dirt, crank the handle, filter out useful stuff.  Useful during initial exploration due to it's light weight.  Limited to resources with a planetary abundance greater than 1%.</Text>
@@ -266,7 +320,45 @@ Refined Exotics</Text>
           <Text>'Tundra' Nuclear Fuel Plant - Processing plant for nuclear fuel production and refinement.  The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium. DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.</Text>
         </Text>
         <Text Name="Heading (12)">
-          <Text>'Tundra' Nuclear Fuel Plant - Processing plant for nuclear fuel production and refinement.  The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium. DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.</Text>
+          <Text>'Tundra' Recycling Module - A large, mobile recycling plant that can take broken parts and other recyclables, and reclaim a portion of their raw materials. Outputs Chemicals, Metals &amp; Polymers.</Text>
+        </Text>
+        <Text Name="Heading (13)">
+          <Text>Dirt → All Resources</Text>
+        </Text>
+        <Text Name="Heading (21)">
+          <Text>Dirt → All Resources</Text>
+        </Text>
+        <Text Name="Heading (22)">
+          <Text>Gypsum → Fertilizer
+Minerals → Fertilizer
+[Crusher] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (23)">
+          <Text>Gypsum → Fertilizer
+Minerals → Fertilizer
+Hydrates → Water
+Ore → Water
+Karbonite → Water</Text>
+        </Text>
+        <Text Name="Heading (24)">
+          <Text>MetallicOre → Metals
+Substrate → Polymers
+[Smelter] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (25)">
+          <Text>Minerals → Chemicals
+MetallicOre → Metals
+Substrate → Polymers
+Silicates → Silicon
+RareMetals, ExoticMinerals, Chemicals → RefinedExotics
+[Smelter] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (26)">
+          <Text>Uraninite → EnrichedUranium
+DepletedFuel → EnrichedUranium</Text>
+        </Text>
+        <Text Name="Heading (27)">
+          <Text>Recyclables → Metals, Chemicals, Polymers</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -314,7 +406,7 @@ Requires to switch
 40 Electric Charge</Text>
         </Text>
         <Text Name="Heading (5)">
-          <Text>These will allow you to excavate resources from the body's surface, at a speed dependent on concentration at that location. This resources can then be used either to make more useful resources. All 3 drills come equipped with multiple separators that can be switched between resources. Switching between resources requires SpecializedParts, MaterialKits &amp; Electric Charge.</Text>
+          <Text>These will allow you to excavate resources from the body's surface, at a speed dependent on concentration at that location. These resources can then be used to make more useful products. All 3 drills come equipped with multiple separators that can be switched between resources. Switching between resources requires SpecializedParts, MaterialKits &amp; Electric Charge.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -358,14 +450,12 @@ Silicates</Text>
     <Screen Name="6 - 1 Scanning">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/6 - 1 Scanning.prefab</AssetPath>
-      <Title>Resource Scanning</Title>
+      <Title>Scanning Guide</Title>
       <Background />
       <Text>
         <Text Name="Heading">
-          <Text>Resource Scanning</Text>
-        </Text>
-        <Text Name="Text">
-          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+          <Text>Resource Scanning
+Guide</Text>
         </Text>
         <Text Name="Heading (1)">
           <Text>Build a small satellite to put the M700 Survey Scanner into a polar orbit of the body you're looking for resources on. Be sure to include some decent EC storage solar panels and antenna.
@@ -374,7 +464,7 @@ Once established in an acceptable orbit, deploy the scanner and perform a scan. 
 
 Turn on the overlays in map mode, and find a spot that is bright in things you care about to choose an area for further exploration.
 
-Land a roverwith the narrow band scanner in the spot you chose.
+Land a rover with the narrow band scanner in the spot you chose.
 Take a surface reading.
 
 Look at narrow band scanner UI, find a spot with better concentrations of things you care about, drive/hop there
@@ -382,6 +472,27 @@ Repeat until you are feeling good and have found a suitable spot for your mining
 
 Land your base as close as you can to your rover.
 </Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Step 1
+
+
+
+Step 2
+
+
+
+Step 3
+
+
+Step 4
+
+
+Step 5
+
+
+
+Step 6</Text>
         </Text>
       </Text>
       <Tooltips />
