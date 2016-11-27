@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587213289796646682">
+  <Author />
+  <Info />
+  <Assets>
+    <Asset Name="0 - 0 MKS " Path="Assets/Pages/0 - 0 MKS .prefab" Type="GameObject" Url="Pages/0 - 0 MKS " AutoLoad="false" />
+    <Asset Name="1 - 0 CoreConcepts" Path="Assets/Pages/1 - 0 CoreConcepts.prefab" Type="GameObject" Url="Pages/1 - 0 CoreConcepts" AutoLoad="false" />
+    <Asset Name="10 - 0 Rovers" Path="Assets/Pages/10 - 0 Rovers.prefab" Type="GameObject" Url="Pages/10 - 0 Rovers" AutoLoad="false" />
+    <Asset Name="10 - 1 Akita" Path="Assets/Pages/10 - 1 Akita.prefab" Type="GameObject" Url="Pages/10 - 1 Akita" AutoLoad="false" />
+    <Asset Name="10 - 2 Karibou" Path="Assets/Pages/10 - 2 Karibou.prefab" Type="GameObject" Url="Pages/10 - 2 Karibou" AutoLoad="false" />
+    <Asset Name="10 - 3 Malumte " Path="Assets/Pages/10 - 3 Malumte .prefab" Type="GameObject" Url="Pages/10 - 3 Malumte " AutoLoad="false" />
+    <Asset Name="11 - 0 Ship Building" Path="Assets/Pages/11 - 0 Ship Building.prefab" Type="GameObject" Url="Pages/11 - 0 Ship Building" AutoLoad="false" />
+    <Asset Name="11 - 1 ExtraPlanetaryLaunchPad Basics" Path="Assets/Pages/11 - 1 ExtraPlanetaryLaunchPad Basics.prefab" Type="GameObject" Url="Pages/11 - 1 ExtraPlanetaryLaunchPad Basics" AutoLoad="false" />
+    <Asset Name="11 - 2 ExtraPlanetaryLaunchPad Parts" Path="Assets/Pages/11 - 2 ExtraPlanetaryLaunchPad Parts.prefab" Type="GameObject" Url="Pages/11 - 2 ExtraPlanetaryLaunchPad Parts" AutoLoad="false" />
+    <Asset Name="11 - 3 ExtraPlanetaryLaunchPad Advanced" Path="Assets/Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced.prefab" Type="GameObject" Url="Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced" AutoLoad="false" />
+    <Asset Name="12 - 0 Efficiency &amp; Load" Path="Assets/Pages/12 - 0 Efficiency &amp; Load.prefab" Type="GameObject" Url="Pages/12 - 0 Efficiency &amp; Load" AutoLoad="false" />
+    <Asset Name="13 - 0 Crew Training" Path="Assets/Pages/13 - 0 Crew Training.prefab" Type="GameObject" Url="Pages/13 - 0 Crew Training" AutoLoad="false" />
+    <Asset Name="14 - 0 Med &amp; colony" Path="Assets/Pages/14 - 0 Med &amp; colony.prefab" Type="GameObject" Url="Pages/14 - 0 Med &amp; colony" AutoLoad="false" />
+    <Asset Name="2 - 0 Ranger Series Simple" Path="Assets/Pages/2 - 0 Ranger Series Simple.prefab" Type="GameObject" Url="Pages/2 - 0 Ranger Series Simple" AutoLoad="false" />
+    <Asset Name="2 - 1 Ranger Part List" Path="Assets/Pages/2 - 1 Ranger Part List.prefab" Type="GameObject" Url="Pages/2 - 1 Ranger Part List" AutoLoad="false" />
+    <Asset Name="2 - 2 Ranger Inflatables" Path="Assets/Pages/2 - 2 Ranger Inflatables.prefab" Type="GameObject" Url="Pages/2 - 2 Ranger Inflatables" AutoLoad="false" />
+    <Asset Name="3 - 0 Duna Series" Path="Assets/Pages/3 - 0 Duna Series.prefab" Type="GameObject" Url="Pages/3 - 0 Duna Series" AutoLoad="false" />
+    <Asset Name="3 - 1 Duna Parts" Path="Assets/Pages/3 - 1 Duna Parts.prefab" Type="GameObject" Url="Pages/3 - 1 Duna Parts" AutoLoad="false" />
+    <Asset Name="4 - 0 Tundra Series" Path="Assets/Pages/4 - 0 Tundra Series.prefab" Type="GameObject" Url="Pages/4 - 0 Tundra Series" AutoLoad="false" />
+    <Asset Name="4 - 1 Tundra Modules" Path="Assets/Pages/4 - 1 Tundra Modules.prefab" Type="GameObject" Url="Pages/4 - 1 Tundra Modules" AutoLoad="false" />
+    <Asset Name="4 - 2 Tundra Parts" Path="Assets/Pages/4 - 2 Tundra Parts.prefab" Type="GameObject" Url="Pages/4 - 2 Tundra Parts" AutoLoad="false" />
+    <Asset Name="4 - 3 Tundra Inflatables" Path="Assets/Pages/4 - 3 Tundra Inflatables.prefab" Type="GameObject" Url="Pages/4 - 3 Tundra Inflatables" AutoLoad="false" />
+    <Asset Name="5 - 0 Base Construction" Path="Assets/Pages/5 - 0 Base Construction.prefab" Type="GameObject" Url="Pages/5 - 0 Base Construction" AutoLoad="false" />
+    <Asset Name="5 - 1 Konstruction Parts0" Path="Assets/Pages/5 - 1 Konstruction Parts0.prefab" Type="GameObject" Url="Pages/5 - 1 Konstruction Parts0" AutoLoad="false" />
+    <Asset Name="5 - 2 Landing Parts" Path="Assets/Pages/5 - 2 Landing Parts.prefab" Type="GameObject" Url="Pages/5 - 2 Landing Parts" AutoLoad="false" />
+    <Asset Name="5 - 3 Connecting Parts" Path="Assets/Pages/5 - 3 Connecting Parts.prefab" Type="GameObject" Url="Pages/5 - 3 Connecting Parts" AutoLoad="false" />
+    <Asset Name="5 - 4 Construction Ports" Path="Assets/Pages/5 - 4 Construction Ports.prefab" Type="GameObject" Url="Pages/5 - 4 Construction Ports" AutoLoad="false" />
+    <Asset Name="5 - 5 Servos &amp; Magnets" Path="Assets/Pages/5 - 5 Servos &amp; Magnets.prefab" Type="GameObject" Url="Pages/5 - 5 Servos &amp; Magnets" AutoLoad="false" />
+    <Asset Name="5 - 5a Konstruction Examples" Path="Assets/Pages/5 - 5a Konstruction Examples.prefab" Type="GameObject" Url="Pages/5 - 5a Konstruction Examples" AutoLoad="false" />
+    <Asset Name="5 - 6 Base Locations" Path="Assets/Pages/5 - 6 Base Locations.prefab" Type="GameObject" Url="Pages/5 - 6 Base Locations" AutoLoad="false" />
+    <Asset Name="5 - 61 Base Locations Cont." Path="Assets/Pages/5 - 61 Base Locations Cont..prefab" Type="GameObject" Url="Pages/5 - 61 Base Locations Cont" AutoLoad="false" />
+    <Asset Name="5 - 6a Base Examples" Path="Assets/Pages/5 - 6a Base Examples.prefab" Type="GameObject" Url="Pages/5 - 6a Base Examples" AutoLoad="false" />
+    <Asset Name="5 - 7 Advanced - KIS" Path="Assets/Pages/5 - 7 Advanced - KIS.prefab" Type="GameObject" Url="Pages/5 - 7 Advanced - KIS" AutoLoad="false" />
+    <Asset Name="6 - 0 Mining &amp; Manufacturing " Path="Assets/Pages/6 - 0 Mining &amp; Manufacturing .prefab" Type="GameObject" Url="Pages/6 - 0 Mining &amp; Manufacturing " AutoLoad="false" />
+    <Asset Name="6 - 1 Scanning" Path="Assets/Pages/6 - 1 Scanning.prefab" Type="GameObject" Url="Pages/6 - 1 Scanning" AutoLoad="false" />
+    <Asset Name="6 - 2 Extractable Resources" Path="Assets/Pages/6 - 2 Extractable Resources.prefab" Type="GameObject" Url="Pages/6 - 2 Extractable Resources" AutoLoad="false" />
+    <Asset Name="6 - 3 Resource Extraction" Path="Assets/Pages/6 - 3 Resource Extraction.prefab" Type="GameObject" Url="Pages/6 - 3 Resource Extraction" AutoLoad="false" />
+    <Asset Name="6 - 4 Resource Processing" Path="Assets/Pages/6 - 4 Resource Processing.prefab" Type="GameObject" Url="Pages/6 - 4 Resource Processing" AutoLoad="false" />
+    <Asset Name="6 - 5 Parts &amp; Supplies Manufacturing" Path="Assets/Pages/6 - 5 Parts &amp; Supplies Manufacturing.prefab" Type="GameObject" Url="Pages/6 - 5 Parts &amp; Supplies Manufacturing" AutoLoad="false" />
+    <Asset Name="6 - 6 Advanced - Career Funds" Path="Assets/Pages/6 - 6 Advanced - Career Funds.prefab" Type="GameObject" Url="Pages/6 - 6 Advanced - Career Funds" AutoLoad="false" />
+    <Asset Name="7 - 0 Logistics " Path="Assets/Pages/7 - 0 Logistics .prefab" Type="GameObject" Url="Pages/7 - 0 Logistics " AutoLoad="false" />
+    <Asset Name="8 - 0 Habitation" Path="Assets/Pages/8 - 0 Habitation.prefab" Type="GameObject" Url="Pages/8 - 0 Habitation" AutoLoad="false" />
+    <Asset Name="8 - 1 Habitation Parts" Path="Assets/Pages/8 - 1 Habitation Parts.prefab" Type="GameObject" Url="Pages/8 - 1 Habitation Parts" AutoLoad="false" />
+    <Asset Name="8 - 2 Habitation Advanced" Path="Assets/Pages/8 - 2 Habitation Advanced.prefab" Type="GameObject" Url="Pages/8 - 2 Habitation Advanced" AutoLoad="false" />
+    <Asset Name="9 - 0 Life Support " Path="Assets/Pages/9 - 0 Life Support .prefab" Type="GameObject" Url="Pages/9 - 0 Life Support " AutoLoad="false" />
+    <Asset Name="mkskspedia_kspedia" Path="Assets/XML/mkskspedia_kspedia.xml" Type="TextAsset" Url="XML/mkskspedia_kspedia" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>

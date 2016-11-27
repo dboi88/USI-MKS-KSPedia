@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587213289839969160">
+  <Categories>
+    <Category Name="USI - MKS">
+      <Title>USI - MKS</Title>
+      <TitleScreen>0 - 0 MKS </TitleScreen>
+      <Screens />
+      <Subcategories>
+        <Subcategory Name="CoreConcepts">
+          <Title>CoreConcepts</Title>
+          <TitleScreen>1 - 0 CoreConcepts</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Ranger Series">
+          <Title>Ranger Series</Title>
+          <TitleScreen>2 - 0 Ranger Series Simple</TitleScreen>
+          <Screens>
+            <Screen>2 - 1 Ranger Part List</Screen>
+            <Screen>2 - 2 Ranger Inflatables</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Duna Series">
+          <Title>Duna Series</Title>
+          <TitleScreen>3 - 0 Duna Series</TitleScreen>
+          <Screens>
+            <Screen>3 - 1 Duna Parts</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Tundra Series">
+          <Title>Tundra Series</Title>
+          <TitleScreen>4 - 0 Tundra Series</TitleScreen>
+          <Screens>
+            <Screen>4 - 1 Tundra Modules</Screen>
+            <Screen>4 - 2 Tundra Parts</Screen>
+            <Screen>4 - 3 Tundra Inflatables</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Base Construction">
+          <Title>Base Construction</Title>
+          <TitleScreen>5 - 0 Base Construction</TitleScreen>
+          <Screens>
+            <Screen>5 - 1 Konstruction Parts0</Screen>
+            <Screen>5 - 2 Landing Parts</Screen>
+            <Screen>5 - 3 Connecting Parts</Screen>
+            <Screen>5 - 4 Construction Ports</Screen>
+            <Screen>5 - 5 Servos &amp; Magnets</Screen>
+            <Screen>5 - 5a Konstruction Examples</Screen>
+            <Screen>5 - 6 Base Locations</Screen>
+            <Screen>5 - 61 Base Locations Cont.</Screen>
+            <Screen>5 - 6a Base Examples</Screen>
+            <Screen>5 - 7 Advanced - KIS</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Mining &amp; Manufacturing">
+          <Title>Mining &amp; Manufacturing</Title>
+          <TitleScreen>6 - 0 Mining &amp; Manufacturing </TitleScreen>
+          <Screens>
+            <Screen>6 - 1 Scanning</Screen>
+            <Screen>6 - 2 Extractable Resources</Screen>
+            <Screen>6 - 3 Resource Extraction</Screen>
+            <Screen>6 - 4 Resource Processing</Screen>
+            <Screen>6 - 5 Parts &amp; Supplies Manufacturing</Screen>
+            <Screen>6 - 6 Advanced - Career Funds</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Logistics">
+          <Title>Logistics</Title>
+          <TitleScreen>7 - 0 Logistics </TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Habitation">
+          <Title>Habitation</Title>
+          <TitleScreen>8 - 0 Habitation</TitleScreen>
+          <Screens>
+            <Screen>8 - 1 Habitation Parts</Screen>
+            <Screen>8 - 2 Habitation Advanced</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Life Support">
+          <Title>Life Support</Title>
+          <TitleScreen>9 - 0 Life Support </TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Rovers">
+          <Title>Rovers</Title>
+          <TitleScreen>10 - 0 Rovers</TitleScreen>
+          <Screens>
+            <Screen>10 - 1 Akita</Screen>
+            <Screen>10 - 2 Karibou</Screen>
+            <Screen>10 - 3 Malumte </Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Ship Building">
+          <Title>Ship Building</Title>
+          <TitleScreen>11 - 0 Ship Building</TitleScreen>
+          <Screens>
+            <Screen>11 - 1 ExtraPlanetaryLaunchPad Basics</Screen>
+            <Screen>11 - 2 ExtraPlanetaryLaunchPad Parts</Screen>
+            <Screen>11 - 3 ExtraPlanetaryLaunchPad Advanced</Screen>
+          </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Efficiency &amp; Load">
+          <Title>Efficiency &amp; Load</Title>
+          <TitleScreen>12 - 0 Efficiency &amp; Load</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Crew Training">
+          <Title>Crew Training</Title>
+          <TitleScreen>13 - 0 Crew Training</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Med Bay &amp; Colony Supplies">
+          <Title>Med Bay &amp; Colony Supplies</Title>
+          <TitleScreen>14 - 0 Med &amp; colony</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+      </Subcategories>
+    </Category>
+  </Categories>
+  <Screens>
+    <Screen Name="9 - 0 Life Support ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/9 - 0 Life Support .prefab</AssetPath>
+      <Title>Life Support</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Life Support </Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="8 - 2 Habitation Advanced">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/8 - 2 Habitation Advanced.prefab</AssetPath>
+      <Title>Habitation Advanced</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (1)">
+          <Text>Advanced</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="8 - 1 Habitation Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/8 - 1 Habitation Parts.prefab</AssetPath>
+      <Title>Habitation Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (1)">
+          <Text>Habitation Parts</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="8 - 0 Habitation">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/8 - 0 Habitation.prefab</AssetPath>
+      <Title>Habitation</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (1)">
+          <Text>Habitation </Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="7 - 0 Logistics ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/7 - 0 Logistics .prefab</AssetPath>
+      <Title>Logistics</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Logistics </Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 6 Advanced - Career Funds">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 6 Advanced - Career Funds.prefab</AssetPath>
+      <Title>Career Funds</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Career Funds</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 5 Parts &amp; Supplies Manufacturing">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 5 Parts &amp; Supplies Manufacturing.prefab</AssetPath>
+      <Title>Parts &amp; Supplies Manufacturing</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Parts &amp; Supplies Manufacturing</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 4 Resource Processing">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 4 Resource Processing.prefab</AssetPath>
+      <Title>Resource Processing</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Resource Processing</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Before you can make anything useful out of the raw materials you've mined you will need to process those raw materials into more refined materials. Or if you only have Dirt extraction capabilities you can sift out raw materials that can then be fed into your processing systems.
+All parts require machinery stores to be full to operate at 100% efficiency and they slowly consume machinery and output recyclables as they work.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Refined Materials</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>Chemicals
+Metals
+Polymers</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>Silicon
+Refined Exotics</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>'Ranger' Regolith Sifter - Shovel in dirt, crank the handle, filter out useful stuff.  Useful during initial exploration due to it's light weight.  Limited to resources with a planetary abundance greater than 1%.</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>'Tundra' Industrial Regolith Sifter - Designed to take in vast amounts of dirt and extract it's useful contents, this industrial sifter redefines the meaning of 'Resource Exploitation'.</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>'Ranger' Crush-O-Matic Portable Extractor - A lightweight multi-resource extractor configured for agricultural use. Can be set to convert either gypsum or raw minerals into fertilizer.</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>'Tundra' Agriculture Support Module - The Agricultural Support Module is designed to support off-world farming on an industrial scale, with three configurable bays that can be set up for fertilizer generation or water extraction from Gypsum, Minerals, Hydrates &amp; Karbonite. It can take advantage of 'Ranger' Crush-O-Matic in [Crusher] mode to increase efficiency.</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>'Ranger' Smelt-O-Matic Portable Smelter - A lightweight multi-resource smelter designed for industrial use.  Can convert minerals, metallic ore, and substrate into Chemicals, Metals &amp; Polymers.</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>'Tundra' Industrial Refinery - A large refinery designed to support off-world resource exploitation on an industrial scale, with three configurable bays that can be set up to refine a variety of resources into Chemicals, Metals &amp; Polymers. Can take advantage of the 'Ranger' Smelt-O-Matic [Smelter] to increase the efficiency.</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>'Tundra' Nuclear Fuel Plant - Processing plant for nuclear fuel production and refinement.  The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium. DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.</Text>
+        </Text>
+        <Text Name="Heading (12)">
+          <Text>'Tundra' Nuclear Fuel Plant - Processing plant for nuclear fuel production and refinement.  The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium. DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 3 Resource Extraction">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 3 Resource Extraction.prefab</AssetPath>
+      <Title>Resource Extraction</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Resource Extraction </Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Mining Parts</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>MEU-100 Pulse Drill
+1 Seperator Slot
+
+Requires to switch
+1 SpecializedPart
+5 MaterialKits
+5 Electric Charge</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>MEU-500 Pulse Drill
+3 Seperator Slots
+
+Requires to switch
+3 SpecializedPart
+15 MaterialKits
+15 Electric Charge</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>Industrial Strip Miner
+5 Seperator Slots
+
+Requires to switch
+8 SpecializedPart
+40 MaterialKits
+40 Electric Charge</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>These will allow you to excavate resources from the body's surface, at a speed dependent on concentration at that location. This resources can then be used either to make more useful resources. All 3 drills come equipped with multiple separators that can be switched between resources. Switching between resources requires SpecializedParts, MaterialKits &amp; Electric Charge.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 2 Extractable Resources">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 2 Extractable Resources.prefab</AssetPath>
+      <Title>Extractable Resources</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Extractable Resources</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Certain resources can be extracted from the environment in KSP, these resources can be found in the atmosphere, in the water, in the crust, and in space. Resources are biome-specific, and some biomes may not contain certain resources. Further, the concentration of resources varies within each biome and will change with each save game. Some locations will have higher concentrations of each resource than other locations. This will affect the rate of resource extraction.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Dirt
+Gypsum
+Minerals
+Substrate
+MetallicOre
+Water</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>Hydrates
+Uraninite
+RareMetals
+ExoticMinerals
+Silicates</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>Extractable Resources</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 1 Scanning">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 1 Scanning.prefab</AssetPath>
+      <Title>Resource Scanning</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Resource Scanning</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Build a small satellite to put the M700 Survey Scanner into a polar orbit of the body you're looking for resources on. Be sure to include some decent EC storage solar panels and antenna.
+
+Once established in an acceptable orbit, deploy the scanner and perform a scan. This will give you a basic idea of what resources are present, and where higher and lower concentrations are, though its not highly detailed.
+
+Turn on the overlays in map mode, and find a spot that is bright in things you care about to choose an area for further exploration.
+
+Land a roverwith the narrow band scanner in the spot you chose.
+Take a surface reading.
+
+Look at narrow band scanner UI, find a spot with better concentrations of things you care about, drive/hop there
+Repeat until you are feeling good and have found a suitable spot for your mining.
+
+Land your base as close as you can to your rover.
+</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 0 Mining &amp; Manufacturing ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 0 Mining &amp; Manufacturing .prefab</AssetPath>
+      <Title>Mining &amp; Manufacturing</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Mining &amp; Manufacturing</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 7 Advanced - KIS">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 7 Advanced - KIS.prefab</AssetPath>
+      <Title>Advanced - KIS</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Advanced - KIS</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 6a Base Examples">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 6a Base Examples.prefab</AssetPath>
+      <Title>Base Examples</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Base Examples
+</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 61 Base Locations Cont.">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 61 Base Locations Cont..prefab</AssetPath>
+      <Title>Base Locations Contd.</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Base Locations
+</Text>
+        </Text>
+        <Text Name="Heading (14)">
+          <Text>Resource Detection</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>The resource detection generally used is the same stock resource detection method in KSP, and used in the same manner as for stock Ore, except we will be looking for different resources.
+The stock system uses the same 3 parts to accomplish a full analysis of resources present on any planetary body in the Kerbol System. The M700 Survey Scanner and M4435 Narrow-Band Scanner are stock parts that can be used in a polar orbit to locate surface resources and concentrations and display them as an overlay on the map.
+Simply put them in an acceptable orbit of the planetary body you wish to scan and then select the scanner on the vessel and cycle through which resource to display.
+It will offer every resource it is capable of scanning for acess this information using Kerbnet.
+
+The M700 is used to give a general idea of what resources are present, while the M4435 can also be used while landed and is used to give a slightly more detailed idea of how much is present. To get more exact readings on how high of a concentration of a resource is actually present, a Surface scanner such as the stock Surface Scanning Module must be used while landed.
+
+UKS also works with SCANsat which offers a more immersive resource scanning experience and more detailed mapping options. Its a slightly more complex method than stock and has a few different options on how it can function.
+
+See 'Scanning' for a step by step approach that outlines an approach to finding a nice area for resource extraction and base construction, as well as a few tips on what to look for in a site.
+
+Things to look for in a site
+
+Gypsum and Minerals will alow you to indefinitely extend your life support.
+Either Ore or Karbonite is essential if you want to launch again, since you'll need a supply of LFO.
+MetalicOre, Substrate, &amp; Minerals, in roughly equal quantities. All that matters is the lowest of the three, since that'll govern your industrial production.
+RareMetals, ExoticMinerals &amp; Silicate in roughly equal quantities if you plan on increasing your industrial production to ship building and onsite construction.
+Uraninite will be essential for advanced bases but can be ignored in your initial base.
+Landing near (within 100 meters of) a biome border allows you to use proxy logistics to mine from 2 different biomes in one base. making a finding a high yield site easier/possible.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 6 Base Locations">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 6 Base Locations.prefab</AssetPath>
+      <Title>Base Locations</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Base Locations
+</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 5a Konstruction Examples">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 5a Konstruction Examples.prefab</AssetPath>
+      <Title>Konstruction Examples</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Konstruction Examples</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 5 Servos &amp; Magnets">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 5 Servos &amp; Magnets.prefab</AssetPath>
+      <Title>Servos &amp; Magnets</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>The adjustable Konstruction parts listed below can all be controlled from the Servo GUI. You can access it by pressing     . 
+This will open the following window. From here you can control every joint individually.
+You can also set parts into groups so they can all be controlled together. You set one to master ad the rest of the group to slave, then the whole group will follow the master. All parts have two modes, 'Free' and 'Goal'. In free mode they will move at the set speed until they reach their limit. In goal mode they will move at the set speed towards their set 'Goal'.
+See the key below for more information.</Text>
+        </Text>
+        <Text Name="Heading (22)">
+          <Text>Servos &amp; Magnets</Text>
+        </Text>
+        <Text Name="Heading (14)">
+          <Text>1</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>2</Text>
+        </Text>
+        <Text Name="Heading (16)">
+          <Text>3</Text>
+        </Text>
+        <Text Name="Heading (17)">
+          <Text>4</Text>
+        </Text>
+        <Text Name="Heading (18)">
+          <Text>5</Text>
+        </Text>
+        <Text Name="Heading (19)">
+          <Text>6</Text>
+        </Text>
+        <Text Name="Heading (20)">
+          <Text>7</Text>
+        </Text>
+        <Text Name="Heading (21)">
+          <Text>8</Text>
+        </Text>
+        <Text Name="Heading (22)">
+          <Text>9</Text>
+        </Text>
+        <Text Name="Heading (23)">
+          <Text>10</Text>
+        </Text>
+        <Text Name="Heading (24)">
+          <Text>11</Text>
+        </Text>
+        <Text Name="Heading (25)">
+          <Text>11</Text>
+        </Text>
+        <Text Name="Heading (26)">
+          <Text>12</Text>
+        </Text>
+        <Text Name="Heading (26)">
+          <Text>13</Text>
+        </Text>
+        <Text Name="Heading (27)">
+          <Text>14</Text>
+        </Text>
+        <Text Name="Heading (28)">
+          <Text>15</Text>
+        </Text>
+        <Text Name="Heading (29)">
+          <Text>16</Text>
+        </Text>
+        <Text Name="Heading (30)">
+          <Text>1  Minimises Part Settings
+2 Highlight Part
+3 Set Master/Slave
+4 Set Group Number
+5 Set All Parts Free/Goal
+6 Stop All Parts
+7 Adjustment Name
+8 Enter Goal Value
+
+</Text>
+        </Text>
+        <Text Name="Heading (31)">
+          <Text>9 Goal Value Currently Set
+10 Current Value
+11 Change Direction Of Adjustment
+12 Set Speed Zero</Text>
+        </Text>
+        <Text Name="Heading (32)">
+          <Text>13 Set Goal/Free
+14 Change Speed Negative Direction
+15 Current Speed
+16 Change Speed Positive Direction</Text>
+        </Text>
+        <Text Name="Heading (33)">
+          <Text>PAL Crane - A mobile crane with integrated magnet for getting stuff from here to there! The crane cane be rotated, the boom length adjusted, the upper and lower pivots can be adjusted. Be careful not to set the magnet strength too high.</Text>
+        </Text>
+        <Text Name="Heading (34)">
+          <Text>PAL Manipulator Claw - A fully articulated manipulator suitable for grasping and moving parts or holding parts in place.  Not for use in retrieving Kerbals. The grabber, , grabs and all the joints are adjustable to get in those hard to reach places.</Text>
+        </Text>
+        <Text Name="Heading (35)">
+          <Text>PAL Forklift - An articulated forklift useful for transporting large parts. The forklift can be stowed away when not in use, the forks angle adjusts and can be moved laterally. </Text>
+        </Text>
+        <Text Name="Heading (36)">
+          <Text>PAL Adjustable Wheel (Inline) -  A ruggedized all terrain wheel, can be stowed when not in use. For moving sideways, automatically keeps the wheels at a stable 90 angle to the surface when adjusting.</Text>
+        </Text>
+        <Text Name="Heading (37)">
+          <Text>PAL Adjustable Wheel (Inline) -  A ruggedized all terrain wheel, can be stowed when not in use. For moving fowards, automatically keeps the wheels at a stable 90 angle to the surface when adjusting.</Text>
+        </Text>
+        <Text Name="Heading (38)">
+          <Text>PAL Stabilizer - A deployable stabilizer that can be raised and lowered, as well as extended for horizontal stability. Pivots can be adjusted.</Text>
+        </Text>
+        <Text Name="Heading (39)">
+          <Text>PAL Magnetic Coupler - This module features a powerful electromagnet in its undercarriage, useful for securing and transporting large or bulky parts. Be careful not to set the magnet strength too high.</Text>
+        </Text>
+        <Text Name="Heading (40)">
+          <Text>PAL Magno-Pad - A specialized pad used when you want your magnets to target a specific point on a vessel. Great for ensuring the module being lifted remains upright.
+</Text>
+        </Text>
+        <Text Name="Heading (41)">
+          <Text>Advance Grabbing Unit - They even found the time to upgrade the advanced grabbing unit. The same magnet technology from the Konstruction range of docking ports has been retrofitted to the Advanced Grabbing Unit.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 4 Construction Ports">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 4 Construction Ports.prefab</AssetPath>
+      <Title>Konstruction Ports</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (13)">
+          <Text>Construction Ports</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>The force setting is the overall magnet strength.</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>The Angle Snap when turned on stops the port from actually engaging until the angle of the port you are docking to matches the setting given.</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>The range setting is how far away the magnet engages.</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>The roll setting is how strong the force will roll a ship into the correct docking orientation, i.e. make up match up on both ports.</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>The torque setting is how strong the force will twist the whole ship that's being docked into alignment laterally.</Text>
+        </Text>
+        <Text Name="Heading (12)">
+          <Text>The Constructions Ports have adjustable settings to assist with building stations and bases.
+
+The settings control the strength of the magnet in different axis.
+
+There is also an option to limit when the dock will engage. This allows you to preset the required orientation and the dock will not engage until the angle requirement is met.
+
+The docks can then be 'collapsed' removing both docking ports and re-joining the parts on either side. This can greatly reduce part count when bases and stations are built in small sections.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 3 Connecting Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 3 Connecting Parts.prefab</AssetPath>
+      <Title>Connecting Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (21)">
+          <Text>Connecting Parts</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>The Multi-Hub using the middle and bottom nodes to drop from the 'Tundra' 3.75m height to the 'Tundra' 2.5m height.</Text>
+        </Text>
+        <Text Name="Heading (12)">
+          <Text>MiniTruss - A smaller tube suitable for connecting various MKS modules.  Attachment styles include 'Ranger' style doughnut connectors, standard 1.25m nodes, and flush mounts suitable for linking trusses together, or attaching to larger surfaces.</Text>
+        </Text>
+        <Text Name="Heading (13)">
+          <Text>MultiTruss - A tube suitable for connecting various MKS modules.  Attachment styles include 'Ranger' style doughnut connectors, standard 1.25m nodes, and flush mounts suitable for linking trusses together, or attaching to larger surfaces.</Text>
+        </Text>
+        <Text Name="Heading (14)">
+          <Text>The Multi-Hub using the middle and bottom nodes to drop from the 'Tundra' 2.5m height to the 'Duna' height.</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>'Tundra' MultiHub - The Multi-Hub features attachment points at heights suitable at MKS 'Ranger' and 'Tundra' (both 2.5m and 3.75m) product lines. See below for examples . . .</Text>
+        </Text>
+        <Text Name="Heading (16)">
+          <Text>'Tundra' Mini Airlock - A smaller airlock module suitable for use with the 'Tundra' series for orbital or surface bases. </Text>
+        </Text>
+        <Text Name="Heading (17)">
+          <Text>The 'Tundra' Airlock fits perfectly on the 2.5m Cradle.</Text>
+        </Text>
+        <Text Name="Heading (18)">
+          <Text>'Tundra' Airlock - An airlock module suitable for use with the 'Tundra' series for orbital or surface bases.
+Seats 4 Crew.
+Provides no Habitation value.</Text>
+        </Text>
+        <Text Name="Heading (19)">
+          <Text>'Tundra' 3.75m Adapter - An attachment cap suitable for 3.75m parts. Comes automatically applied to all 3.75m 'Tundra' Modules when using the outer node.</Text>
+        </Text>
+        <Text Name="Heading (20)">
+          <Text>'Tundra' 2.5m Adapter - An attachment cap suitable for 2.5m parts. Comes automatically applied to all 2.5m 'Tundra' Modules when using the outer node.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 2 Landing Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 2 Landing Parts.prefab</AssetPath>
+      <Title>Landing Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (1)">
+          <Text>Landing Parts</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 1 Konstruction Parts0">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 1 Konstruction Parts0.prefab</AssetPath>
+      <Title>Konstruction Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Konstruction Parts</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Variants of the popular Clamp-O-Tron Docking Ports Jr. that can be compressed for construction, and will snap to 90 degree angles. Dock cannot engage with regular Clamp-O-Tron Docking Ports.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>See 'Konstruction Ports' for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>PAL Manipulator Claw - A fully articulated manipulator suitable for grasping and moving parts or holding parts in place.  Not for use in retrieving Kerbals. See 'Konstruction Ports' for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>PAL Forklift - An articulated forklift useful for transporting large parts.See Servos &amp; Magnets for more info . . </Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>PAL Crane - A mobile crane with integrated magnet for getting stuff from here to there! See Servos &amp; Magnets for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>PAL Counterweight - An inline counterweight for your konstruction vehicles.  Can be loaded and unloaded in-situ with local material (i.e. space rocks and space dirt!)</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>PAL Humpback truss - An open-frame elevated short truss segment to allow higher mounting points for winches, couplers, etc.</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>PAL Magnetic Coupler - This module features a powerful electromagent in its undercarriage, useful for securing and transporting large or bulky parts. See Servos &amp; Magnets for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>PAL Multi-Mount Truss Segment - A short truss segment with both upper and lower side mounting points for more konstruction goodness!</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>PAL Truss - This large, structural truss can be used to attach various konstruction parts.</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>PAL Magno-Pad - A specialized pad used when you want your magnets to target a specific point on a vessel. See Servos &amp; Magnets for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (12)">
+          <Text>PAL Ladder - An extra long ladder suitable for climbing onto PAL-based konstruction vehicles.</Text>
+        </Text>
+        <Text Name="Heading (13)">
+          <Text>PAL Stabilizer - A deployable stabilizer that can be raised and lowered, as well as extended for horizontal stability. See Servos &amp; Magnets for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (14)">
+          <Text>Cradle (2.5m &amp; 3.75m) - A platform suitable for horizontally deploying 2.5m modules.  Includes independently adjustable stabilizers.</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>A ruggedized all terrain wheel, can be stowed when not in use. See Servos &amp; Magnets for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (16)">
+          <Text>PAL Adjustable Wheel (Inline)</Text>
+        </Text>
+        <Text Name="Heading (17)">
+          <Text>PAL Adjustable Wheel (Lateral)</Text>
+        </Text>
+        <Text Name="Heading (18)">
+          <Text>PAL Wheel</Text>
+        </Text>
+        <Text Name="Heading (19)">
+          <Text>PAL Mini Wheel</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 0 Base Construction">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 0 Base Construction.prefab</AssetPath>
+      <Title>Base Construction</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (1)">
+          <Text>Base Construction</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>Umbra Space Industries introduces it's yellowest venture yet Konstruction! Konstruction adds new parts and game mechanics to KSP centered around base and orbital construction!
+
+Weldable, configurable construction ports, with auto-rotation and configurable parameters on the fly. Once connected, these can be removed, resulting in a permanent joint between the parent parts of the two ports.
+
+Design your assembly in the VAB, cut it up and add construction ports, reassemble in-situ.
+
+Great for large bases and stations, or building larger vessels in orbit!
+</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="4 - 3 Tundra Inflatables">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/4 - 3 Tundra Inflatables.prefab</AssetPath>
+      <Title>Tundra Inflatables</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Tundra Inflatables</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="4 - 2 Tundra Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/4 - 2 Tundra Parts.prefab</AssetPath>
+      <Title>Tundra Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Tundra Parts</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="4 - 1 Tundra Modules">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/4 - 1 Tundra Modules.prefab</AssetPath>
+      <Title>Tundra Modules</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Tundra Module List</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>2.5m Form Factor</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>3.75m Form Factor</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>This module brings more advanced farming techniques to your colony.
+It can take advantage of 'Ranger' Agriculture Module in [GreenHouse] mode to increase efficiency.
+This module will help replenish your supplies through a variety of agriculture options.
+Ensure an experienced scientist is on board for optimal efficiency.
+Seats 2 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>This module is outfitted to provide long range power distribution, including large battery stores, and a small nuclear power plant.
+Radiators not included.
+Seats 2 Crew.
+See 'Power' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>The Kerbitat brings you all of the comforts of home, in a package guaranteed to have at least 30% less explosive decompression than our competitors.
+Can be configured as a life support recycler, crew quarters, or outfitted with comfort and exercise features to make your Kerbal more comfortable.
+Seats 2 Crew.
+See 'Habitation' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>The Kerbitat brings you all of the comforts of home, in a package guaranteed to have at least 30% less explosive decompression than our competitors.
+Can be configured as a life support recycler, crew quarters, or outfitted with comfort and exercise features to make your Kerbal more comfortable.
+Seats 4 Crew.
+See 'Habitation' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (7)">
+          <Text>Designed for longer term settlements, this advanced Colonization Module provides ample room and amenities for long term habitation.
+Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module.
+Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
+The Colonist Module consumes ColonySupplies, and in return, increases both habitation timers for your Kerbals. Seats 2 Crew.
+See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (8)">
+          <Text>Designed to be one of the first parts of a long term colony, the Pioneer module features local logistics capabilities, basic training facilities, recycling facilities for life support, KerbNet access, and survey station capabilities for off-world construction.
+Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
+Seats 2 Crew.
+See 'Logistics', 'Med Bay &amp; Colony Supplies' &amp; 'Ship Building' for more info. . .</Text>
+        </Text>
+        <Text Name="Text (9)">
+          <Text>The Agricultural Support Module is designed to support off-world farming on an industrial scale, with three configurable bays that can be set up for fertilizer generation or water extraction from a variety of materials.
+It can take advantage of 'Ranger' Crush-O-Matic in [Crusher] mode to increase efficiency.
+Seats 4 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (10)">
+          <Text>A large refinery designed to support off-world resource exploitation on an industrial scale, with three configurable bays that can be set up to refine a variety of resources into useful products.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+Can take advantage of the 'Ranger' Smelt-O-Matic [Smelter] to increase the efficiency.
+Seats 4 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (11)">
+          <Text>An off-world manufacturing facility suitable for large-scale fabrication. Can be configured as either MaterialKits, Machinery, ColonySupplies or SpecializedParts production.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+Can take advantage of the 'Ranger' Inflatable Workshop [Workshop] to increase the efficiency. Engineers on-board will also perform automatic maintenance of all modules within 150m keeping your production lines fully stocked, requires a reserve of machinery.
+Seats 4 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (12)">
+          <Text>A large, mobile recycling plant that can take broken parts and othe recyclables, and reclaim a portion of their raw materials.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+Seats 4 Crew.
+See 'Manufacturing' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (13)">
+          <Text>The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium.
+DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.
+Sutible for interplanetary operations, spacecraft, stations, and surface bases (radiators not included.) Centrifuge not suitable for Kerbal entertainment purposes.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+Seats 4 Crew.
+See 'Manufacturing' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (14)">
+          <Text>Designed to take in vast amounts of dirt and extract it's useful contents, this industrial sifter redefines the meaning of 'Resource Exploitation'.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+Seats 4 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (15)">
+          <Text>This module brings more advanced farming techniques to your colony. 
+It can take advantage of 'Ranger' Agriculture Module in [GreenHouse] mode to increase efficiency.
+This module will help replenish your supplies through a variety of agriculture options.
+Ensure an experienced scientist is on board for optimal efficiency.
+Seats 4 Crew.
+See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (16)">
+          <Text>A field training center for training your Kerbonauts.
+When training is conducted, attendees will gain experience based on the instructors present, and in their chosen field.
+Up to one star when used on Kerbin, two stars while in orbit, and three stars if training takes place landed on another planet or moon.
+Seats 12 Crew.
+See 'Crew Training' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (17)">
+          <Text>Designed for longer term settlements, this advanced Colonization Module provides ample room and amenities for long term habitation.
+Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module.
+Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
+The Colonist Module consumes ColonySupplies, and in return, increases both habitation timers for your Kerbals.
+Seats 6 Crew.
+See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (18)">
+          <Text>When mishaps befall your Kerbals, or when Kerbals become homesick, simply transfer them into the medical bay, and any scientist on your crew can help them become happy and healthy again.
+Only works on Kerbals inside of the module, consumes ColonySupplies.
+Includes medical facilities for 4 Kerbals.
+See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="4 - 0 Tundra Series">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/4 - 0 Tundra Series.prefab</AssetPath>
+      <Title>Tundra Series</Title>
+      <Background />
+      <Text />
+      <Tooltips />
+    </Screen>
+    <Screen Name="3 - 1 Duna Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/3 - 1 Duna Parts.prefab</AssetPath>
+      <Title>Duna Parts</Title>
+      <Background />
+      <Text />
+      <Tooltips />
+    </Screen>
+    <Screen Name="3 - 0 Duna Series">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/3 - 0 Duna Series.prefab</AssetPath>
+      <Title>Duna Series</Title>
+      <Background />
+      <Text />
+      <Tooltips />
+    </Screen>
+    <Screen Name="2 - 2 Ranger Inflatables">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/2 - 2 Ranger Inflatables.prefab</AssetPath>
+      <Title>Ranger Inflatables</Title>
+      <Background />
+      <Text />
+      <Tooltips />
+    </Screen>
+    <Screen Name="2 - 1 Ranger Part List">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/2 - 1 Ranger Part List.prefab</AssetPath>
+      <Title>Ranger Part List</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (1)">
+          <Text>Ranger Part List</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="2 - 0 Ranger Series Simple">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/2 - 0 Ranger Series Simple.prefab</AssetPath>
+      <Title>Ranger Series</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Ranger Series</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>Small light weight or inflatable parts. Capable of being used to build a temporary 
+base or supplement starter bases. 
+Parts that generate resources can be 
+converted to Efficiency Parts using MaterialKits and/or SpecializedParts so 
+that these parts retain some useful functions once the starter base has 
+been upgraded with better parts from one of the next two classes. 
+Inflatables will require the appropriate amount of MaterialKits and an engineer on EVA to inflate with 
+one exception  being the Inflatable Storage Modules.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="14 - 0 Med &amp; colony">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/14 - 0 Med &amp; colony.prefab</AssetPath>
+      <Title>MedBay &amp; Colony Supplies</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Med Bay &amp; Colony Supplies</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="13 - 0 Crew Training">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/13 - 0 Crew Training.prefab</AssetPath>
+      <Title>Crew Training</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Crew Training</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="12 - 0 Efficiency &amp; Load">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/12 - 0 Efficiency &amp; Load.prefab</AssetPath>
+      <Title>Efficiency &amp; Load</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Efficiency &amp; Load </Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="11 - 3 ExtraPlanetaryLaunchPad Advanced">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced.prefab</AssetPath>
+      <Title>EL Advanced</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>ExtraPlanetaryLaunchPad Advanced</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="11 - 2 ExtraPlanetaryLaunchPad Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/11 - 2 ExtraPlanetaryLaunchPad Parts.prefab</AssetPath>
+      <Title>EL Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>ExtraPlanetaryLaunchPad Parts</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="11 - 1 ExtraPlanetaryLaunchPad Basics">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/11 - 1 ExtraPlanetaryLaunchPad Basics.prefab</AssetPath>
+      <Title>EL Basics</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>ExtraPlanetaryLaunchPad Basics</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="11 - 0 Ship Building">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/11 - 0 Ship Building.prefab</AssetPath>
+      <Title>Ship Building</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>Ship Building</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="10 - 3 Malumte ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/10 - 3 Malumte .prefab</AssetPath>
+      <Title>Malumte</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>Malumte</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="10 - 2 Karibou">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/10 - 2 Karibou.prefab</AssetPath>
+      <Title>Karibou</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>Karibou</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="10 - 1 Akita">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/10 - 1 Akita.prefab</AssetPath>
+      <Title>Akita</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>Akita</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="10 - 0 Rovers">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/10 - 0 Rovers.prefab</AssetPath>
+      <Title>Rovers</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (22)">
+          <Text>Rovers</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="1 - 0 CoreConcepts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/1 - 0 CoreConcepts.prefab</AssetPath>
+      <Title>Core Concepts</Title>
+      <Background />
+      <Text />
+      <Tooltips />
+    </Screen>
+    <Screen Name="0 - 0 MKS ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/0 - 0 MKS .prefab</AssetPath>
+      <Title>USI - MKS</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Modular Kolonization 
+Systems
+
+- MKS -</Text>
+        </Text>
+        <Text Name="Text (2)">
+          <Text>Welcome to the wide and wonderful worlds of Umbra Space Industries' latest venture. A world leader in corrugated paper products, Umbra Space Industries is now applying their formidable boxing and packaging skills to their latest product – USI Modular Kolonization Systems! 
+
+MKS introduces a series of orbital and surface parts for habitation, resource exploitation, and construction. While the parts can be used purely for aesthetics, it is designed to provide a richer gameplay experience through the extension of existing mods, and/or enhancement of career mode.
+ 
+You've made the right choice in coming here for information! This KSPedia entry will help you through each step of the mod, from Installation to optimizing that Eeloo research base!</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+  </Screens>
+</KSPedia>
