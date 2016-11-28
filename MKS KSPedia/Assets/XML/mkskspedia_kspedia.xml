@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587213171848943782">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587212356966481469">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -191,6 +191,53 @@
       <Text>
         <Text Name="Text (2)">
           <Text>Logistics </Text>
+        </Text>
+        <Text Name="Text">
+          <Text>In MKS, Logistics is the process of moving things from one vessel (the Warehouse) to another (the Consumer). This can happen via many different methods each with their own ranges and requirements, but all logistics use the same basic mechanism.
+
+Regardless of the specific method's range, a few things must be true. The Consumer must have the LogisticsConsumer module, the Warehouse must have the ResourceWarehouse module, and they must be within range.
+
+Consumers will also only request resources if they are below 50%, will never request more than 10% of their capacity at a time, will never request Machinery, and will only request EC if they are hooked up into a proper Power Coupling/Distribution network. See 'Power' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>Scavenging (150m)</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>When a vessel is short on stuff, the Kerbals can grab what they need from nearby vessels and debris.
+
+Example: If your base is running out of life support, just drop a box of stuff nearby, and it will automatically be transferred into your ship as necessary! You must have available storage for the resource you want to pull.</Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>Resource Distribution (2 km)</Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>Sometimes you need stuff from far away. Even without dedicated storage of their own, these vessels can relay resources between parts within range so long as they are piloted. Qualifying rover parts include the Karibou Expedition Rover cockpit, and the surface Pioneer Module.
+</Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>Example: Your mining rig is over a kilometer away from your processing plant. Just toss a qualifying rover in range of both, and resources will flow automatically to the ship that needs them. You must have available storage for the resource you want to pull.</Text>
+        </Text>
+        <Text Name="Text (7)">
+          <Text>Resource Distribution (2 km)</Text>
+        </Text>
+        <Text Name="Text (8)">
+          <Text>Sometimes you want to share resources across a lot of bases or vessels in an area. Distribution Warehouses are special parts that automatically "level" resources between themselves and other Distribution Warehouses every 10 seconds. </Text>
+        </Text>
+        <Text Name="Text (9)">
+          <Text>Note that the Distribution Warehouses function best when attached to a vessel with active converter to refill the resources that are distributed.
+
+Example: You have a mining base next to a farming base, and want to make sure your miners always have life support supplies. Just connect a warehouse with Supplies storage on each using docking ports or KAS, and as your farm's warehouse fills up, it will automatically transfer a bunch of its stuff to the warehouse on your mining base (where the supplies are consumed).
+
+Qualifying Parts: everything with a ModuleDistributedWarehouse, so the MK-V Inflatable Storage Module as well as 3.75m-5m Kontainers &amp; Cylindrical Tanks, but not the spherical tanks. Note that some parts may have an 'Enable Warehouse' ui action, but are not self leveling warehouses, only those parts listed above can do self leveling.</Text>
+        </Text>
+        <Text Name="Text (10)">
+          <Text>Resource Distribution (2 km)</Text>
+        </Text>
+        <Text Name="Text (11)">
+          <Text>Sometimes the stuff you want is on the other side of the planet. And sometimes you make so much stuff that you run out of a place to put it. Planetary Logistics is like a giant warehouse shared by every vessel on the planet, and uses special warehouses that can tap into planetary storage (which is infinite!).</Text>
+        </Text>
+        <Text Name="Text (12)">
+          <Text>If the warehouse has too much stuff, it puts it in storage. If it has too little, it pulls it out. There's a GUI where you can see how much stuff you have in the giant global warehouse.</Text>
         </Text>
       </Text>
       <Tooltips />
