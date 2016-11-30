@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587212356905811030">
+<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587210619503172558">
   <Author />
   <Info />
   <Assets>
@@ -46,7 +46,6 @@
     <Asset Name="7 - 0 Logistics " Path="Assets/Pages/7 - 0 Logistics .prefab" Type="GameObject" Url="Pages/7 - 0 Logistics " AutoLoad="false" />
     <Asset Name="8 - 0 Habitation" Path="Assets/Pages/8 - 0 Habitation.prefab" Type="GameObject" Url="Pages/8 - 0 Habitation" AutoLoad="false" />
     <Asset Name="8 - 1 Habitation Parts" Path="Assets/Pages/8 - 1 Habitation Parts.prefab" Type="GameObject" Url="Pages/8 - 1 Habitation Parts" AutoLoad="false" />
-    <Asset Name="8 - 2 Habitation Advanced" Path="Assets/Pages/8 - 2 Habitation Advanced.prefab" Type="GameObject" Url="Pages/8 - 2 Habitation Advanced" AutoLoad="false" />
     <Asset Name="9 - 0 Life Support " Path="Assets/Pages/9 - 0 Life Support .prefab" Type="GameObject" Url="Pages/9 - 0 Life Support " AutoLoad="false" />
     <Asset Name="mkskspedia_kspedia" Path="Assets/XML/mkskspedia_kspedia.xml" Type="TextAsset" Url="XML/mkskspedia_kspedia" AutoLoad="false" />
   </Assets>

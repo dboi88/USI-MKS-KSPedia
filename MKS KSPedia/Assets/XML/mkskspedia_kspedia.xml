@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587212356966481469">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587210619561605900">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -80,7 +80,6 @@
           <TitleScreen>8 - 0 Habitation</TitleScreen>
           <Screens>
             <Screen>8 - 1 Habitation Parts</Screen>
-            <Screen>8 - 2 Habitation Advanced</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -143,18 +142,6 @@
         </Text>
         <Text Name="Text">
           <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
-        </Text>
-      </Text>
-      <Tooltips />
-    </Screen>
-    <Screen Name="8 - 2 Habitation Advanced">
-      <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/8 - 2 Habitation Advanced.prefab</AssetPath>
-      <Title>Habitation Advanced</Title>
-      <Background />
-      <Text>
-        <Text Name="Text (1)">
-          <Text>Advanced</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1019,7 +1006,7 @@ See 'Habitation' for more info. . . </Text>
           <Text>Designed for longer term settlements, this advanced Colonization Module provides ample room and amenities for long term habitation.
 Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module.
 Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
-The Colonist Module consumes ColonySupplies, and in return, increases both habitation timers for your Kerbals. Seats 2 Crew.
+The Colonist Module consumes ColonySupplies, and in return, suspends both habitation timers for your Kerbals. Seats 2 Crew.
 See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
         </Text>
         <Text Name="Text (8)">
@@ -1087,7 +1074,7 @@ See 'Crew Training' for more info. . . </Text>
           <Text>Designed for longer term settlements, this advanced Colonization Module provides ample room and amenities for long term habitation.
 Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module.
 Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
-The Colonist Module consumes ColonySupplies, and in return, increases both habitation timers for your Kerbals.
+The Colonist Module consumes ColonySupplies, and in return, suspends both habitation timers for your Kerbals.
 Seats 6 Crew.
 See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
         </Text>
