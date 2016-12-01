@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587209859050801889">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587209787408747688">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -86,7 +86,10 @@
         <Subcategory Name="Life Support">
           <Title>Life Support</Title>
           <TitleScreen>9 - 0 Life Support </TitleScreen>
-          <Screens />
+          <Screens>
+            <Screen>9 - 1 Recyclers</Screen>
+            <Screen>9 - 2 Converters</Screen>
+          </Screens>
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Rovers">
@@ -131,6 +134,128 @@
     </Category>
   </Categories>
   <Screens>
+    <Screen Name="9 - 2 Converters">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/9 - 2 Converters.prefab</AssetPath>
+      <Title>Converters</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Converters</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>'Ranger' Agricultural Module</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>'Ranger' Agricultural Module
+Agroponics: Mulch, Fertilizer → Supplies
+Cultivate(S): Substrate, Water, Fertilizer → Supplies
+Cultivate(D): Dirt, Water, Fertilizer → Supplies
+[GreenHouse] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies
+Cultivate(S): Substrate, Water, Fertilizer → Supplies
+Cultivate(D): Dirt, Water, Fertilizer → Supplies
+Agriculture(S): Substrate, Water, Organics, Fertilizer → Organics
+Agriculture(D): Dirt, Water, Organics, Fertilizer → Organics</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>'Duna' Agriculture Module</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>'Tundra' Agriculture Module (2.5m)</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies
+Cultivate(S): Substrate, Water, Fertilizer → Supplies
+Cultivate(D): Dirt, Water, Fertilizer → Supplies
+Agriculture(S): Substrate, Water, Organics, Fertilizer → Organics
+Agriculture(D): Dirt, Water, Organics, Fertilizer → Organics</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>'Tundra' Agriculture Module (3.75m)</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies
+Cultivate(S): Substrate, Water, Fertilizer → Supplies
+Cultivate(D): Dirt, Water, Fertilizer → Supplies
+Agriculture(S): Substrate, Water, Organics, Fertilizer → Organics
+Agriculture(D): Dirt, Water, Organics, Fertilizer → Organics</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>'Tundra' Habitation Ring</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>[GreenHouse] Efficiency Part</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>
+USI-LS Nom-O-Matic 5000</Text>
+        </Text>
+        <Text Name="Heading (12)">
+          <Text>USI-LS Nom-O-Matic 5000</Text>
+        </Text>
+        <Text Name="Heading (13)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies</Text>
+        </Text>
+        <Text Name="Heading (14)">
+          <Text>USI-LS Nom-O-Matic 25000</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies</Text>
+        </Text>
+        <Text Name="Heading (16)">
+          <Text>USI-LS Nom-O-Matic 25000</Text>
+        </Text>
+        <Text Name="Heading (17)">
+          <Text>Agroponics: Mulch, Fertilizer → Supplies</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="9 - 1 Recyclers">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/9 - 1 Recyclers.prefab</AssetPath>
+      <Title>Recyclers</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Recyclers</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>'Duna' KerbitatModule
+Recycler: 77% Crew: 4</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>'Duna' Pioneer Module
+Recycler: 70% Crew: 4</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>'Tundra' Kerbitat (2.5m)
+Recycler: 81% Crew: 4
+Purifier, 90.5% Crew: 4</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>'Tundra' Kerbitat (2.5m)
+Recycler: 81% Crew: 4
+Purifier, 90.5% Crew: 4</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>'Tundra' Pioneer - Logistics Module
+Recycler: 70% Crew: 4</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>USI-LS RT-500 Recycling Module
+Recycler: 60% Crew: 1</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>USI-LS RT-5000 Recycling Module
+Recycler: 79% Crew: 3</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
     <Screen Name="9 - 0 Life Support ">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/9 - 0 Life Support .prefab</AssetPath>
@@ -140,8 +265,38 @@
         <Text Name="Heading">
           <Text>Life Support </Text>
         </Text>
-        <Text Name="Text">
-          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        <Text Name="Heading (1)">
+          <Text>USI Life Support introduces three new resources 
+(and uses one stock resource)
+
+Supplies - kerbals need them to survive
+ElectricCharge - kerbals need 0.01 EC/s
+Mulch - Kerbals produce this as waste when
+they consume Supplies
+Fertilizer - greenhouses can convert a combination
+of Mulch and Fertilizer into Supplies
+</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Consumption
+
+Each kerbal consumes Supplies. For every unit of Supplies they consume, kerbals produce one unit of Mulch as waste.
+
+To reduce the rate at which kerbals convert Supplies to Mulch, you can use life support Recyclers. For longer missions, Converters may be used to produce Supplies from Mulch with the use of Fertilizer. Each unit of fertilizer is equal to 3.14 Kerbal-hours of Supplies (at the default 8.5:1 conversion ratio).
+
+Recyclers
+
+Recyclers can reduce the rate of consumption of Supplies. Each Recycler has an efficiency and a crew capacity. For example, the stock MPL Science Lab can reduce consumption by 70% (efficiency) for up to five kerbals (crew capacity). After the crew capacity is exceeded, the efficiency is reduced by the amount you are over capacity. For example, the MPL Science Lab's efficiency divided by 2 if ten kerbals are present on the ship (double the Recycler's crew capacity).
+
+If you have multiple Recyclers running, their effects are cumulative. The vessel-wide consumption reduction is capped by the most efficient recycler - so if your most efficient Recycler is a Science Lab, you can't reduce your Supplies consumption by more than 70%, no matter how many Recyclers are running.
+
+Converters
+
+USI-LS includes two greenhouses that can convert Mulch and Fertilizer into Supplies. By beginning your mission with a Converter, some Fertilizer, and only a small amount of initial Supplies, you can dramatically reduce the total mass of resources you need.
+
+To calculate the amount of Fertilizer required, first calculate the total amount of Supplies required for your mission. Then divide this number by the "Supplies to Fertilizer Ratio". For example, if your mission will require 850 units of Supplies and you choose to utilize a Nom-O-Matic 5000, then you should pack 100 units of Fertilizer. With some small amount of Supplies to begin with (so that Mulch is produced), your greenhouse will add a bit of Fertilizer to your Mulch and produce 850 units of Supplies before running out of Fertilizer.
+
+Also note the rate at which Converters produce Supplies. Multiple Converters may be necessary to produce the daily Supplies requirement for multiple kerbals. Converters work independent from one another so their effects are cumulative.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -309,7 +464,7 @@ Dirt, Water, Fertilizer, Organics → Organics</Text>
     <Screen Name="6 - 4 Resource Processing">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/6 - 4 Resource Processing.prefab</AssetPath>
-      <Title>Resource Production</Title>
+      <Title>Resource Processing</Title>
       <Background />
       <Text>
         <Text Name="Heading">
