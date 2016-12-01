@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587210619561605900">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587209859050801889">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -1127,6 +1127,119 @@ See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
       <Text>
         <Text Name="Text (1)">
           <Text>Ranger Part List</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Agricultural Module
+An expandable greenhouse that can be configured as an algae-based farm and biological filter using either recycled waste (yuck!) or local resources (either substrate or dirt, plus water).
+Requires fertilzer, and can be converted to an efficiency part [Greenhouse] to enhance the 'Ranger' &amp; 'Tundra' Agriculture  Modules.
+Ensure an experienced scientist is on board for optimal efficiency.
+See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (2)">
+          <Text>Airlock
+Small Airlock with space for one crew member. 
+This part offers no habitation space.</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>Anchor Hub
+A small inflatable-style hub for connecting tubes and mounting Ranger parts includes landing struts and a small probe core making it ideal for the starting point of a base.
+Includes 'Load Transfer Technology' see 'Landing Parts' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>Ball Hub
+A small inflatable-style hub for connecting tubes.
+Includes 'Load Transfer Technology' see 'Landing Parts' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>Auxiliary Control
+When you don't have space for a full command pod, this Auxiliary Control Module includes basic flight controls and instrumentation for a single kerbal.</Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>Battery Pack
+An external battery pack for your power hungry colony operations!</Text>
+        </Text>
+        <Text Name="Text (7)">
+          <Text>Communications Pack
+A small lab with integrated communication capabilities, suitable for initial planetary exploration and ongoing research.
+While the capabilities are inferior to the MPL, its compact size and lower mass make this an attractive option.</Text>
+        </Text>
+        <Text Name="Text (8)">
+          <Text>Redi Pack
+When you just need a small amount of supplies.</Text>
+        </Text>
+        <Text Name="Text (9)">
+          <Text>2.5m stack adapter
+Attach the smaller ring to the top of an MKS 'Ranger' ball hub or anchor hub.
+This lets you build a vertical stack MKS base off of a Tundra Multi-Truss but still fit in a 2.5 stack, and not lose the rear attachment node on the anchor / ball hub.</Text>
+        </Text>
+        <Text Name="Text (10)">
+          <Text>Heat Pump
+This module utilizes geothermal wells to transfer and store excess heat in a planetary surface.
+This module is more effective on cooler planets or during night cycles.</Text>
+        </Text>
+        <Text Name="Text (11)">
+          <Text>Inflatable Storage Module
+A smaller version of the discontinued MKS ILM, suitable for storing smaller quantities of materials.
+See 'Ranger Inflatables' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (12)">
+          <Text>Mount Point
+A handy attachment point for MKS 'Ranger' style parts.
+Allows easy positioning of small surface-attached modules (such as science equipment, etc.).
+Also includes supplemental battery power.</Text>
+        </Text>
+        <Text Name="Text (13)">
+          <Text>Power Pack
+Using experimental technology, this self-contained power module can provide a steady power supply to your colony for several years, though its output will diminish over time.
+Not refuelable.
+Includes extension cords to power other nearby modules if an engineer is present.
+See 'Power' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (14)">
+          <Text>Saddle Tank
+When you just need a small amount of supplies.</Text>
+        </Text>
+        <Text Name="Text (15)">
+          <Text>Crush-O-Matic Portable Extractor
+A lightweight multi-resource extractor configured for agricultural use.
+Can be set to convert either gypsum or raw minerals into fertilizer.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency. 
+Can be converted to an efficiency part [Crusher] to enhance the 'Tundra' Agriculture Support Module.
+See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (16)">
+          <Text>Regolith Sifter
+Shovel in dirt, crank the handle, filter out useful stuff.
+Useful during initial exploration due to it's light weight.
+Limited to resources with a planetary abundance greater than 1%.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (17)">
+          <Text>Smelt-O-Matic Portable Smelter
+A lightweight multi-resource smelter designed for industrial use.
+Can convert minerals, metallic ore, and substrate into useful products.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency
+Can be converted to an efficiency part [Smelter] to enhance the 'Tundra' Industrial Refinery.
+See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (18)">
+          <Text>Inflatable Workshop
+An inflatable workshop suitable for small-scale fabrication. Can be configured as either MaterialKits or Machinery production.
+Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency
+Can be converted to an efficiency part [Workshop] to enhance the 'Tundra' Assembly Plant.
+Engineers onboard will also perform automatic maintenance of all modules within 150m keeping your production lines fully stocked. Requires a reserve of machinery.
+See 'Ranger Inflatables', 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (19)">
+          <Text>Habitation Module
+All of the comforts of home in a convenient, expandable package.
+Can be configured as private living space (Habitation Extension) or outfitted as shared space (Habitation Multiplier).
+See 'Ranger Inflatables' &amp; 'Habitation' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (20)">
+          <Text>Stow Pack
+When you just need a small amount of KIS storage.</Text>
         </Text>
       </Text>
       <Tooltips />
