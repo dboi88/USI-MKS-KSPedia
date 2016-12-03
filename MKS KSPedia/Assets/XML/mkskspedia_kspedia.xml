@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587208782860859301">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587208389200841798">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -102,11 +102,11 @@
           </Screens>
           <Subcategories />
         </Subcategory>
-        <Subcategory Name="Ship Building">
-          <Title>Ship Building</Title>
+        <Subcategory Name="Ship Building - EL">
+          <Title>Ship Building - EL</Title>
           <TitleScreen>11 - 1 ExtraPlanetaryLaunchPad Basics</TitleScreen>
           <Screens>
-            <Screen>11 - 1 ExtraPlanetaryLaunchPad Basics</Screen>
+            <Screen>11 - 2 ExtraPlanetaryLaunchPad Parts</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -1434,14 +1434,25 @@ one exception  being the Inflatable Storage Modules.</Text>
     <Screen Name="16 – 0 Med Bay &amp; Colony Supplies">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/16 – 0 Med Bay &amp; Colony Supplies.prefab</AssetPath>
-      <Title>MedBay &amp; Colony Supplies</Title>
+      <Title>MedBay &amp; ColonySupplies</Title>
       <Background />
       <Text>
-        <Text Name="Heading">
-          <Text>Med Bay &amp; Colony Supplies</Text>
-        </Text>
         <Text Name="Text">
           <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Colonization
+
+Colonization Modules are designed for longer term settlements, these advanced Colonization Module provides ample room and amenities for long term habitation. Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module. Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
+
+The Colonist Module consumes ColonySupplies, and in return, increases both habitation timers for your Kerbals. One your Hab timers reach the same level as the highest Habitat they've been in the Colonization Module will freeze the Hab Timers at their maximum amount.
+ 
+MedBays
+
+When mishaps befall your Kerbals, or when Kerbals become homesick, simply transfer them into the medical bay, and any scientist on your crew can help them become happy and healthy again.  Only works on Kerbals inside of the module, and consumes ColonySupplies. Only works on Kerbals that have turned into 'Tourists'.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>MedBay &amp; Colony Supplies</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1454,6 +1465,42 @@ one exception  being the Inflatable Storage Modules.</Text>
       <Text>
         <Text Name="Text (2)">
           <Text>Crew Training</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>USI - MKS provides a field training center for training your Kerbonauts. When training is conducted, attendees will gain experience based on the instructors present, and in their chosen field. Up to one star when used on Kerbin, two stars while in orbit, and three stars if training takes place landed on another planet or moon.
+
+Pilot
+
+Required for planetary logistics (within 500 m of Logistics Centre)
+Required for Resource Distribution (extends logistics range to 2 km)
+Gives Kolonization Research bonus
+Gives Reputation bonus
+
+Engineer
+
+Required for Power Distribution Unit (PDU) operation
+Required on EVA to switch modes on swappable converters (incl. USI-LS Nom-O-Matics)
+Required in Workshop to perform automated daily maintenance
+Can disassemble parts on EVA
+Can perform parts maintenance on EVA
+Gives Geology Research bonus
+Gives Funds bonus
+Gives efficiency bonus to Drills (and Convert-O-Trons and same as Stock and Karbonite)•
+
+Scientist
+
+Require at least one for Research Labs operation in Ranger CommPak
+Additional Scientists / experience stars add bonus to this lab research
+Require a Scientist in the crew to enable the Medical Bay
+Require a Scientist in Pioneer modules to enable KerbNet access
+Gives Botany Research bonus
+Gives Science bonus
+Gives an efficiency bonus to all Ag modules and Greenhouses•
+Gives efficiency bonus to Ranger Smelter and Crusher•
+Gives bonus to Workshop efficiency module•
+Note
+
+• These bonuses are scaled by the ScienceSkill and DrillSkill attributes and thus increase with kerbal experience.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1482,6 +1529,56 @@ one exception  being the Inflatable Storage Modules.</Text>
         <Text Name="Heading">
           <Text>Power</Text>
         </Text>
+        <Text Name="Heading (1)">
+          <Text>MKS provides a range of different power generation units in many form factors. Some incorporate automatic power distribution.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Nuclear Reactor (0.625m)
+A compact nuclear reactor for interplanetary operations, spacecraft, stations, and surface bases.
+30EC/s</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>Nuclear Reactor (1.25m)
+A compact nuclear reactor for interplanetary operations, spacecraft, stations, and surface bases.
+230EC/s</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>Nuclear Reactor (2.5)
+A compact nuclear reactor for interplanetary operations, spacecraft, stations, and surface bases.
+1550EC/s</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>Nuclear Reactor (3.75m)
+A compact nuclear reactor for interplanetary operations, spacecraft, stations, and surface bases.
+4500EC/s</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>'Duna' Power Distribution Unit
+This module is outfitted to provide long range power distribution, including large battery stores, and a small nuclear power plant.  Radiators not included.
+750EC/s</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>'Tundra' Power Distribution Unit
+This module is outfitted to provide long range power distribution, including large battery stores, and a small nuclear power plant.  Radiators not included.
+1200EC/s</Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>'Ranger' Scout-200 Power Pack
+Using experimental technology, this self-contained power module can provide a steady power supply to your colony for several years, though its output will diminish over time.  Not refuelable.  Includes extension cords to power other nearby modules if an engineer is present.
+50EC/s</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>Microwave Power Tranceiver
+Allows for the transfer of power via microwave transmission</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>Power Coupler
+Allows for the transfer of power via physical cables</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>'Ranger' Battery Pack
+An external battery pack for your power hungry colony operations!</Text>
+        </Text>
       </Text>
       <Tooltips />
     </Screen>
@@ -1493,6 +1590,45 @@ one exception  being the Inflatable Storage Modules.</Text>
       <Text>
         <Text Name="Text (2)">
           <Text>Kontainers</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>Kontainer Tank - Cluster 1.25m, 2.5m, 3.75m &amp; 5m
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>Kontainer Tank - Flat 1.25m, 2.5m, 3.75m &amp; 5m
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>Kontainer 1.25m, 2.5m, 3.75m &amp; 5m
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>KIS Kontainer 1.25m, 2.5m, 3.75m &amp; 5m
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (7)">
+          <Text>Kontainer Tank - Quad-Round (01.8m x 7.5m)
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (8)">
+          <Text>Nuclear Fuel Container
+A specialized container for holding nuclear fuel</Text>
+        </Text>
+        <Text Name="Text (9)">
+          <Text>Nuclear Waste Container
+A specialized container for holding nuclear waste</Text>
+        </Text>
+        <Text Name="Text (10)">
+          <Text>Kontainer Tank - Round
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (11)">
+          <Text>Kontainer Tank 1.25m, 2.5m, 3.75m &amp; 5m
+Shipping container for transporting various goods</Text>
+        </Text>
+        <Text Name="Text (12)">
+          <Text>USI - MKS comes bundled with Kontainers which provide storage tanks in varies form factors.</Text>
         </Text>
       </Text>
       <Tooltips />
