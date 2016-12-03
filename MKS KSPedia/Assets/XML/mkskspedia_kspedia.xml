@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587209787408747688">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587208782860859301">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -104,29 +104,39 @@
         </Subcategory>
         <Subcategory Name="Ship Building">
           <Title>Ship Building</Title>
-          <TitleScreen>11 - 0 Ship Building</TitleScreen>
+          <TitleScreen>11 - 1 ExtraPlanetaryLaunchPad Basics</TitleScreen>
           <Screens>
             <Screen>11 - 1 ExtraPlanetaryLaunchPad Basics</Screen>
-            <Screen>11 - 2 ExtraPlanetaryLaunchPad Parts</Screen>
-            <Screen>11 - 3 ExtraPlanetaryLaunchPad Advanced</Screen>
           </Screens>
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Kontainers">
+          <Title>Kontainers</Title>
+          <TitleScreen>12 - 0 Kontainers</TitleScreen>
+          <Screens />
+          <Subcategories />
+        </Subcategory>
+        <Subcategory Name="Power">
+          <Title>Power</Title>
+          <TitleScreen>13 - 0 Power</TitleScreen>
+          <Screens />
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Efficiency &amp; Load">
           <Title>Efficiency &amp; Load</Title>
-          <TitleScreen>12 - 0 Efficiency &amp; Load</TitleScreen>
+          <TitleScreen>14 - 0 Efficiency &amp; Load</TitleScreen>
           <Screens />
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Crew Training">
           <Title>Crew Training</Title>
-          <TitleScreen>13 - 0 Crew Training</TitleScreen>
+          <TitleScreen>15 - 0 Crew Training</TitleScreen>
           <Screens />
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Med Bay &amp; Colony Supplies">
           <Title>Med Bay &amp; Colony Supplies</Title>
-          <TitleScreen>14 - 0 Med &amp; colony</TitleScreen>
+          <TitleScreen>16 – 0 Med Bay &amp; Colony Supplies</TitleScreen>
           <Screens />
           <Subcategories />
         </Subcategory>
@@ -1421,9 +1431,9 @@ one exception  being the Inflatable Storage Modules.</Text>
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="14 - 0 Med &amp; colony">
+    <Screen Name="16 – 0 Med Bay &amp; Colony Supplies">
       <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/14 - 0 Med &amp; colony.prefab</AssetPath>
+      <AssetPath>Assets/Pages/16 – 0 Med Bay &amp; Colony Supplies.prefab</AssetPath>
       <Title>MedBay &amp; Colony Supplies</Title>
       <Background />
       <Text>
@@ -1436,9 +1446,9 @@ one exception  being the Inflatable Storage Modules.</Text>
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="13 - 0 Crew Training">
+    <Screen Name="15 - 0 Crew Training">
       <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/13 - 0 Crew Training.prefab</AssetPath>
+      <AssetPath>Assets/Pages/15 - 0 Crew Training.prefab</AssetPath>
       <Title>Crew Training</Title>
       <Background />
       <Text>
@@ -1448,9 +1458,9 @@ one exception  being the Inflatable Storage Modules.</Text>
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="12 - 0 Efficiency &amp; Load">
+    <Screen Name="14 - 0 Efficiency &amp; Load">
       <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/12 - 0 Efficiency &amp; Load.prefab</AssetPath>
+      <AssetPath>Assets/Pages/14 - 0 Efficiency &amp; Load.prefab</AssetPath>
       <Title>Efficiency &amp; Load</Title>
       <Background />
       <Text>
@@ -1463,14 +1473,26 @@ one exception  being the Inflatable Storage Modules.</Text>
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="11 - 3 ExtraPlanetaryLaunchPad Advanced">
+    <Screen Name="13 - 0 Power">
       <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced.prefab</AssetPath>
-      <Title>EL Advanced</Title>
+      <AssetPath>Assets/Pages/13 - 0 Power.prefab</AssetPath>
+      <Title>Power</Title>
       <Background />
       <Text>
-        <Text Name="Heading (22)">
-          <Text>ExtraPlanetaryLaunchPad Advanced</Text>
+        <Text Name="Heading">
+          <Text>Power</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="12 - 0 Kontainers">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/12 - 0 Kontainers.prefab</AssetPath>
+      <Title>Kontainers</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Kontainers</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1484,29 +1506,36 @@ one exception  being the Inflatable Storage Modules.</Text>
         <Text Name="Heading (22)">
           <Text>ExtraPlanetaryLaunchPad Parts</Text>
         </Text>
+        <Text Name="Heading (23)">
+          <Text>USI - MKS supplies many new parts with which to use with ExtraPlanetarylaunchpads.</Text>
+        </Text>
+        <Text Name="Heading (24)">
+          <Text>Mobile Launch Platform
+A mobile platform for building rockets off-planet!</Text>
+        </Text>
+        <Text Name="Heading (25)">
+          <Text>Orbital Shipyard
+An orbital platform for building rockets in space!  Includes rocket construction capabilities.</Text>
+        </Text>
+        <Text Name="Heading (26)">
+          <Text>'Duna' Pioneer Module
+Designed to be one of the first parts of a long term colony, the Pioneer module features survey station capabilities for off-world construction.</Text>
+        </Text>
+        <Text Name="Heading (27)">
+          <Text>'Tundra' Pioneer - Logistics Module
+Designed to be one of the first parts of a long term colony, the Pioneer module features survey station capabilities for off-world construction.</Text>
+        </Text>
       </Text>
       <Tooltips />
     </Screen>
     <Screen Name="11 - 1 ExtraPlanetaryLaunchPad Basics">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/11 - 1 ExtraPlanetaryLaunchPad Basics.prefab</AssetPath>
-      <Title>EL Basics</Title>
+      <Title>Ship Building - EL</Title>
       <Background />
       <Text>
         <Text Name="Heading (22)">
           <Text>ExtraPlanetaryLaunchPad Basics</Text>
-        </Text>
-      </Text>
-      <Tooltips />
-    </Screen>
-    <Screen Name="11 - 0 Ship Building">
-      <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/11 - 0 Ship Building.prefab</AssetPath>
-      <Title>Ship Building</Title>
-      <Background />
-      <Text>
-        <Text Name="Heading (22)">
-          <Text>Ship Building</Text>
         </Text>
       </Text>
       <Tooltips />

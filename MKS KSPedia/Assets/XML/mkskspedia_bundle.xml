@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587209787342823917">
+<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587208782806116170">
   <Author />
   <Info />
   <Assets>
@@ -9,13 +9,13 @@
     <Asset Name="10 - 1 Akita" Path="Assets/Pages/10 - 1 Akita.prefab" Type="GameObject" Url="Pages/10 - 1 Akita" AutoLoad="false" />
     <Asset Name="10 - 2 Karibou" Path="Assets/Pages/10 - 2 Karibou.prefab" Type="GameObject" Url="Pages/10 - 2 Karibou" AutoLoad="false" />
     <Asset Name="10 - 3 Malumte " Path="Assets/Pages/10 - 3 Malumte .prefab" Type="GameObject" Url="Pages/10 - 3 Malumte " AutoLoad="false" />
-    <Asset Name="11 - 0 Ship Building" Path="Assets/Pages/11 - 0 Ship Building.prefab" Type="GameObject" Url="Pages/11 - 0 Ship Building" AutoLoad="false" />
     <Asset Name="11 - 1 ExtraPlanetaryLaunchPad Basics" Path="Assets/Pages/11 - 1 ExtraPlanetaryLaunchPad Basics.prefab" Type="GameObject" Url="Pages/11 - 1 ExtraPlanetaryLaunchPad Basics" AutoLoad="false" />
     <Asset Name="11 - 2 ExtraPlanetaryLaunchPad Parts" Path="Assets/Pages/11 - 2 ExtraPlanetaryLaunchPad Parts.prefab" Type="GameObject" Url="Pages/11 - 2 ExtraPlanetaryLaunchPad Parts" AutoLoad="false" />
-    <Asset Name="11 - 3 ExtraPlanetaryLaunchPad Advanced" Path="Assets/Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced.prefab" Type="GameObject" Url="Pages/11 - 3 ExtraPlanetaryLaunchPad Advanced" AutoLoad="false" />
-    <Asset Name="12 - 0 Efficiency &amp; Load" Path="Assets/Pages/12 - 0 Efficiency &amp; Load.prefab" Type="GameObject" Url="Pages/12 - 0 Efficiency &amp; Load" AutoLoad="false" />
-    <Asset Name="13 - 0 Crew Training" Path="Assets/Pages/13 - 0 Crew Training.prefab" Type="GameObject" Url="Pages/13 - 0 Crew Training" AutoLoad="false" />
-    <Asset Name="14 - 0 Med &amp; colony" Path="Assets/Pages/14 - 0 Med &amp; colony.prefab" Type="GameObject" Url="Pages/14 - 0 Med &amp; colony" AutoLoad="false" />
+    <Asset Name="12 - 0 Kontainers" Path="Assets/Pages/12 - 0 Kontainers.prefab" Type="GameObject" Url="Pages/12 - 0 Kontainers" AutoLoad="false" />
+    <Asset Name="13 - 0 Power" Path="Assets/Pages/13 - 0 Power.prefab" Type="GameObject" Url="Pages/13 - 0 Power" AutoLoad="false" />
+    <Asset Name="14 - 0 Efficiency &amp; Load" Path="Assets/Pages/14 - 0 Efficiency &amp; Load.prefab" Type="GameObject" Url="Pages/14 - 0 Efficiency &amp; Load" AutoLoad="false" />
+    <Asset Name="15 - 0 Crew Training" Path="Assets/Pages/15 - 0 Crew Training.prefab" Type="GameObject" Url="Pages/15 - 0 Crew Training" AutoLoad="false" />
+    <Asset Name="16 – 0 Med Bay &amp; Colony Supplies" Path="Assets/Pages/16 – 0 Med Bay &amp; Colony Supplies.prefab" Type="GameObject" Url="Pages/16 – 0 Med Bay &amp; Colony Supplies" AutoLoad="false" />
     <Asset Name="2 - 0 Ranger Series Simple" Path="Assets/Pages/2 - 0 Ranger Series Simple.prefab" Type="GameObject" Url="Pages/2 - 0 Ranger Series Simple" AutoLoad="false" />
     <Asset Name="2 - 1 Ranger Part List" Path="Assets/Pages/2 - 1 Ranger Part List.prefab" Type="GameObject" Url="Pages/2 - 1 Ranger Part List" AutoLoad="false" />
     <Asset Name="2 - 2 Ranger Inflatables" Path="Assets/Pages/2 - 2 Ranger Inflatables.prefab" Type="GameObject" Url="Pages/2 - 2 Ranger Inflatables" AutoLoad="false" />
