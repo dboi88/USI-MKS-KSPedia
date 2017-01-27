@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587191690823291976">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160528329554403">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -143,8 +143,8 @@
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Kolonization Dashboard">
-          <Title>Kolonization Dashboard</Title>
-          <TitleScreen>17 - 0 Kolonists</TitleScreen>
+          <Title>Kolonization</Title>
+          <TitleScreen>17 - 0 Kolonization</TitleScreen>
           <Screens />
           <Subcategories />
         </Subcategory>
@@ -1530,29 +1530,57 @@ When you just need a small amount of KIS storage.</Text>
     <Screen Name="2 - 0 Ranger Series Simple">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/2 - 0 Ranger Series Simple.prefab</AssetPath>
-      <Title>Ranger Series</Title>
+      <Title />
       <Background />
       <Text>
         <Text Name="Heading">
           <Text>Ranger Series</Text>
         </Text>
-        <Text Name="Text (1)">
-          <Text>Small light weight or inflatable parts. Capable of being used to build a temporary 
-base or supplement starter bases. 
-Parts that generate resources can be 
-converted to Efficiency Parts using MaterialKits and/or SpecializedParts so 
-that these parts retain some useful functions once the starter base has 
-been upgraded with better parts from one of the next two classes. 
-Inflatables will require the appropriate amount of MaterialKits and an engineer on EVA to inflate with 
-one exception  being the Inflatable Storage Modules.</Text>
+        <Text Name="Text">
+          <Text>Small light weight or inflatable parts. Capable of being used to build a temporary base or supplement starter bases.
+Parts that generate resources can be converted to Efficiency Parts using MaterialKits and/or SpecializedParts so that these parts retain some useful functions once the starter base has been upgraded with better parts from one of the next two classes.
+Inflatables will require the appropriate amount of MaterialKits and an engineer on EVA to inflate with one exception being the Inflatable Storage Modules.</Text>
         </Text>
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="17 - 0 Kolonists">
+    <Screen Name="17 - 1 Kolonization Dashboard">
       <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/17 - 0 Kolonists.prefab</AssetPath>
-      <Title>Kolonization Dashboard</Title>
+      <AssetPath>Assets/Pages/17 - 1 Kolonization Dashboard.prefab</AssetPath>
+      <Title />
+      <Background />
+      <Text>
+        <Text Name="Text">
+          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>You can access the Kolonization Dashboard by pressing:
+
+From here you can monitor your Kolony Statistics, Local Logistics, Planetary Logistics &amp; Recruit Kolonists.
+
+Kolony Statistics
+Kolony Bonuses are accrued by spending time performing the relevant tasks on the relevant body. Geology is earned by mining activities.  Botany is earned by Greenhouses and agricultural modules. Kolonization is earned by active crew members.
+
+Recruit Kolonists
+You can now recruit Kolonists for 10k per crew member. Each of the 9 types provides different abilities and bonuses.
+You can also recruit regular crew members as you are unlikely to be able to use the astronaut facility anymore. You can also grab a random Kerbal for only 1k!
+
+Local Logistics
+You can now control and monitor local logistics.
+
+Planetary Logistics
+You can also now view the status of Planetary Logistics in the same Dashboard.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Kolonization Dashboard</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="17 - 0 Kolonization">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/17 - 0 Kolonization.prefab</AssetPath>
+      <Title />
       <Background />
       <Text>
         <Text Name="Text">
