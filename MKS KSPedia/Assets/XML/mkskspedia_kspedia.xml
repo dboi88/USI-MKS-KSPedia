@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160528329554403">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160510549052953">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -16,7 +16,6 @@
           <Title>Ranger Series</Title>
           <TitleScreen>2 - 0 Ranger Series Simple</TitleScreen>
           <Screens>
-            <Screen>2 - 1 Ranger Part List</Screen>
             <Screen>2 - 2 Ranger Inflatables</Screen>
           </Screens>
           <Subcategories />
@@ -24,9 +23,7 @@
         <Subcategory Name="Duna Series">
           <Title>Duna Series</Title>
           <TitleScreen>3 - 0 Duna Series</TitleScreen>
-          <Screens>
-            <Screen>3 - 1 Duna Parts</Screen>
-          </Screens>
+          <Screens />
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Tundra Series">
@@ -1378,14 +1375,6 @@ See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
       <Text />
       <Tooltips />
     </Screen>
-    <Screen Name="3 - 1 Duna Parts">
-      <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/3 - 1 Duna Parts.prefab</AssetPath>
-      <Title>Duna Parts</Title>
-      <Background />
-      <Text />
-      <Tooltips />
-    </Screen>
     <Screen Name="3 - 0 Duna Series">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/3 - 0 Duna Series.prefab</AssetPath>
@@ -1405,7 +1394,7 @@ See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
     <Screen Name="2 - 1 Ranger Part List">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/2 - 1 Ranger Part List.prefab</AssetPath>
-      <Title>Ranger Part List</Title>
+      <Title />
       <Background />
       <Text>
         <Text Name="Text (1)">
@@ -1491,12 +1480,8 @@ Can be converted to an efficiency part [Crusher] to enhance the 'Tundra' Agricul
 See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
         </Text>
         <Text Name="Text (16)">
-          <Text>Regolith Sifter
-Shovel in dirt, crank the handle, filter out useful stuff.
-Useful during initial exploration due to it's light weight.
-Limited to resources with a planetary abundance greater than 1%.
-Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
-See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+          <Text>Regolith Sifter 
+Shovel in dirt, crank the handle, filter out useful stuff.  Useful during initial exploration due to it's light weight.  Limited to resources with a planetary abundance greater than 1%. When resources lodes are grappled, both the Ranger and Tundra regolith sifters can convert the ResourceLode resource into a variety of other resources based on planetary composition (similar to how Dirt works). See Active Resource Harvesting For More Information  . . .</Text>
         </Text>
         <Text Name="Text (17)">
           <Text>Smelt-O-Matic Portable Smelter
