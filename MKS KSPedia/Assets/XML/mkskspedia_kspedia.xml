@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160510549052953">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160463308557129">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -17,22 +17,24 @@
           <TitleScreen>2 - 0 Ranger Series Simple</TitleScreen>
           <Screens>
             <Screen>2 - 2 Ranger Inflatables</Screen>
+            <Screen>2 - 1 Ranger Part List</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Duna Series">
           <Title>Duna Series</Title>
           <TitleScreen>3 - 0 Duna Series</TitleScreen>
-          <Screens />
+          <Screens>
+            <Screen>3 - 1 Duna Parts</Screen>
+          </Screens>
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Tundra Series">
           <Title>Tundra Series</Title>
           <TitleScreen>4 - 0 Tundra Series</TitleScreen>
           <Screens>
-            <Screen>4 - 1 Tundra Modules</Screen>
-            <Screen>4 - 2 Tundra Parts</Screen>
             <Screen>4 - 3 Tundra Inflatables</Screen>
+            <Screen>4 - 1 Tundra Modules</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -47,9 +49,9 @@
             <Screen>5 - 5 Servos &amp; Magnets</Screen>
             <Screen>5 - 5a Konstruction Examples</Screen>
             <Screen>5 - 6 Base Locations</Screen>
-            <Screen>5 - 61 Base Locations Cont.</Screen>
-            <Screen>5 - 6a Base Examples</Screen>
             <Screen>5 - 7 Advanced - KIS</Screen>
+            <Screen>5 - 6a Base Examples</Screen>
+            <Screen>5 - 61 Base Locations Cont.</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -59,16 +61,16 @@
           <Screens>
             <Screen>6 - 1 Scanning</Screen>
             <Screen>6 - 2 Extractable Resources</Screen>
-            <Screen>6 - 3 Resource Extraction</Screen>
             <Screen>6 - 4 Resource Processing</Screen>
             <Screen>6 - 5 Parts &amp; Supplies Manufacturing</Screen>
             <Screen>6 - 6 Advanced - Career Funds</Screen>
+            <Screen>6 - 3 Resource Extraction</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Logistics">
           <Title>Logistics</Title>
-          <TitleScreen>7 - 0 Logistics </TitleScreen>
+          <TitleScreen>7 - 1 Logistics </TitleScreen>
           <Screens>
             <Screen>7 - 1 Logistics </Screen>
           </Screens>
@@ -142,7 +144,9 @@
         <Subcategory Name="Kolonization Dashboard">
           <Title>Kolonization</Title>
           <TitleScreen>17 - 0 Kolonization</TitleScreen>
-          <Screens />
+          <Screens>
+            <Screen>17 - 1 Kolonization Dashboard</Screen>
+          </Screens>
           <Subcategories />
         </Subcategory>
       </Subcategories>
@@ -337,6 +341,28 @@ Also note the rate at which Converters produce Supplies. Multiple Converters may
         <Text Name="Text (1)">
           <Text>Habitation </Text>
         </Text>
+        <Text Name="Text (2)">
+          <Text>All crewed modules provide a certain amount of Habitation, measured in "Kerbal-Months" (30 six-hour Kerbin-Days), equal to the number of seats on board. For example, the Mk1 Command Pod provides 1 kerbal-month of Habitation. More specialized parts may provide additional Habitation. For example, the Hitchhiker Can provides 660 kerbal-days of Habitation (in addition to the 28 kerbal-days provided by its 4 seats).
+ Pilots and Scouts are immune to habitation values.
+
+Habitat Multipliers
+
+The kerbal-months provided by your habitat space is multiplied by the vessel's total Hab Multiplier value. Every vessel has a base Hab Multiplier of 1. Any additional multipliers provided by parts are added to that to get the vessel's final Hab Multiplier. For example, a Cupola has a Hab Multiplier of 1.76. If a vessel has two Cupolae, its final Hab Multiplier is 1 + (1.76 * 2) = 4.52. If the vessel provides a base Habitation of 100 kerbal-months, the Hab Multiplier increases the ship's total Habitation to 452 kerbal-months.
+
+Habitation and Homesickness
+
+Kerbals can only stay in a confined space away from home for so long before bad things happen. Each kerbal has two running clocks (displayed for each active kerbal in the USI-LS window) which determine this time limit.
+
+Hab time- how long the kerbal will be happy on his current vessel
+Home time- how long the kerbal will be happy before getting homesick for Kerbin
+.
+
+Hab time is reset every time a kerbal enters a new vessel. It begins with the vessel's provided Habitatation time (divided by the number of kerbals present) and counts down to zero. The concept of Hab time is how comfortable your kerbal is with his current vessel. He can't live in tight spaces for long, and he gets tired of staying in the same place.
+
+Home time never resets of it's own accord and starts counting down from the moment of launch. However, it is increased by the highest amount of Habitation ever experienced by the kerbal. The concept of Home time is how homesick the kerbal is. Spacious vessels will help him stay positive for a longer time, but eventually he's going to miss home. However, this timer can be reversed if there is a functioning colonization module present. See 'Med Bay &amp; Colony Supplies' for more info . . . 
+
+For example, imagine we have a rocket (Habitation = 30 days) with an attached lander (Habitation = 5 days) and a space station (Habitation = 1000 days). When Jebediah launches (alone) his Hab time and Home time both start at 30 days and begin counting down. He arrives at the Mun 5 days later with a Hab time and Home time of 25 days each. Then he moves to the lander. His Home time will be unaffected (still 25 days, counting down), but his Hab time will be reset/decreased to 5 days (because the lander is only able to support a kerbal for 5 days). Jeb visits the surface of the Mun and returns to his ship in orbit after 4 days. At this point his Hab time is 1 day and his Home time is 21 days. When he moves back to the rocket his Hab time will reset to 30 days, but his Home time will remain at 21 days. Jebediah then travels to the space station for 10 days (Hab = 20 days, Home = 11 days). When he enters the space station, Hab time is reset to 1000 days (a nice new station for him to stretch his legs in). His Home time is also increased, but not to 1000. He has already been away from home for 19 days at this point, which means his Home time will be reset to 981 days (29 days shy of 1000). After 100 days on the station he boards the rocket again (Hab goes down to 30, Home is unaffected and at 951) and heads back to Kerbin, where he is recovered.</Text>
+        </Text>
       </Text>
       <Tooltips />
     </Screen>
@@ -459,52 +485,6 @@ Storage for the resource being transferred is required on both vessels.
 ‘Logistics Consumers’ will only initate a ‘pull request’ when their own storage is below 50% capacity.
 ‘Logistics Consumers’ will only initate a ‘pull request’ for 10% of their capacity at a time.
 ‘Logistics Consumers’ will never request Machinery and only EC when connected to a proper PDU system.</Text>
-        </Text>
-      </Text>
-      <Tooltips />
-    </Screen>
-    <Screen Name="7 - 0 Logistics ">
-      <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/7 - 0 Logistics .prefab</AssetPath>
-      <Title>Logistics</Title>
-      <Background />
-      <Text>
-        <Text Name="Text (2)">
-          <Text>Logistics </Text>
-        </Text>
-        <Text Name="Text">
-          <Text>In MKS, Logistics is the process of moving things from one vessel (the Warehouse) to another (the Consumer). This can happen via many different methods each with their own ranges and requirements, but all logistics use the same basic mechanism.
-
-Regardless of the specific method's range, a few things must be true. The Consumer must have the LogisticsConsumer module, the Warehouse must have the ResourceWarehouse module, and they must be within range.
-
-Consumers will also only request resources if they are below 50%, will never request more than 10% of their capacity at a time, will never request Machinery, and will only request EC if they are hooked up into a proper Power Coupling/Distribution network. See 'Power' for more info . . .</Text>
-        </Text>
-        <Text Name="Text (1)">
-          <Text>Scavenging (150m)</Text>
-        </Text>
-        <Text Name="Text (3)">
-          <Text>When a vessel is short on stuff, the Kerbals can grab what they need from nearby vessels and debris.
-
-Example: If your base is running out of life support, just drop a box of stuff nearby, and it will automatically be transferred into your ship as necessary! You must have available storage for the resource you want to pull.</Text>
-        </Text>
-        <Text Name="Text (4)">
-          <Text>Resource Distribution (2 km)</Text>
-        </Text>
-        <Text Name="Text (5)">
-          <Text>Sometimes you need stuff from far away. Even without dedicated storage of their own, these vessels can relay resources between parts within range so long as they are piloted. Qualifying rover parts include the Karibou Expedition Rover cockpit, and the surface Pioneer Module.
-</Text>
-        </Text>
-        <Text Name="Text (6)">
-          <Text>Example: Your mining rig is over a kilometer away from your processing plant. Just toss a qualifying rover in range of both, and resources will flow automatically to the ship that needs them. You must have available storage for the resource you want to pull.</Text>
-        </Text>
-        <Text Name="Text (10)">
-          <Text>Planetary Logistics</Text>
-        </Text>
-        <Text Name="Text (11)">
-          <Text>Sometimes the stuff you want is on the other side of the planet. And sometimes you make so much stuff that you run out of a place to put it. Planetary Logistics is like a giant warehouse shared by every vessel on the planet, and uses special warehouses that can tap into planetary storage (which is infinite!).</Text>
-        </Text>
-        <Text Name="Text (12)">
-          <Text>If the warehouse has too much stuff, it puts it in storage. If it has too little, it pulls it out. There's a GUI where you can see how much stuff you have in the giant global warehouse. Requires a plioted Logistics Module.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -720,7 +700,7 @@ Requires to switch
 40 Electric Charge</Text>
         </Text>
         <Text Name="Heading (5)">
-          <Text>These will allow you to excavate resources from the body's surface, at a speed dependent on concentration at that location. These resources can then be used to make more useful products. All 3 drills come equipped with multiple separators that can be switched between resources. Switching between resources requires SpecializedParts, MaterialKits &amp; Electric Charge.</Text>
+          <Text>These will allow you to excavate resources from the body's surface, at a speed dependent on concentration at that location. These resources can then be used to make more useful products. All 3 drills come equipped with multiple separators that can be switched between resources. Switching between resources requires SpecializedParts, MaterialKits &amp; Electric Charge. Take note of the drill temperatures. They will not operate at peak efficiency if they overheat.</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -848,13 +828,34 @@ Step 6</Text>
           <Text>Base Examples
 </Text>
         </Text>
+        <Text Name="Heading (14)">
+          <Text>'Ranger' Lander - Using the 2.5m stack adapters allows us to attach fuel tanks and engines without sacrificing the Anchor Hub's side mounts. These can be detatched once landed. Pro Tip, if you have MaterialKits storage within 'Scavenge' range then recycle these parts using the right click menu.</Text>
+        </Text>
+        <Text Name="Heading (15)">
+          <Text>'Ranger' Base - An example of a deployed base using the 'Ranger Series'. Notice the use of nodes on the MultiTruss to mount accessories.</Text>
+        </Text>
+        <Text Name="Heading (16)">
+          <Text>'Duna' Lander - Using the SkyCrane enables a well balanced and easy to control landing vehicle. Pro Tip, if you have MaterialKits storage within 'Scavenge' range then recycle the SkyCrane and fueltanks using the right click menu.</Text>
+        </Text>
+        <Text Name="Heading (17)">
+          <Text>'Duna' Base - An example of a 'Duna Series' Base supplemented by 'Ranger' parts.</Text>
+        </Text>
+        <Text Name="Heading (18)">
+          <Text>'Tundra' Lander - Using the SkyCrane and 'Scout' Lander enables a well balanced and easy to control landing vehicle that can comfortable land on any surface. Don't forget to use the 'Scout' Lander's built in Load Balancing Feature. See 'Landing Parts' for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (19)">
+          <Text>'Tundra' Base - An example of a 'Tundra' base supplemented by 'Ranger' parts. Bases like this are best built onsite using either Konstruction Vehicles, ExtraPlanetaryLaunchpads or KIS. See 'Advanced - KIS' &amp; 'Ship Building' for more info . . .</Text>
+        </Text>
+        <Text Name="Heading (20)">
+          <Text>Mobile Base - An example of a mobile base built using the USI - Karibou rover parts. Capable of off world construction using ExtraPlanetaryLaunchpads and holds an Akita rover in it's Cargo Bay. Karibou parts supplied separately see the USI Catalog for more info . . . </Text>
+        </Text>
       </Text>
       <Tooltips />
     </Screen>
     <Screen Name="5 - 61 Base Locations Cont.">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/5 - 61 Base Locations Cont..prefab</AssetPath>
-      <Title>Base Locations Contd.</Title>
+      <Title>Base Location</Title>
       <Background />
       <Text>
         <Text Name="Heading (13)">
@@ -871,6 +872,7 @@ Simply put them in an acceptable orbit of the planetary body you wish to scan an
 It will offer every resource it is capable of scanning for acess this information using Kerbnet.
 
 The M700 is used to give a general idea of what resources are present, while the M4435 can also be used while landed and is used to give a slightly more detailed idea of how much is present. To get more exact readings on how high of a concentration of a resource is actually present, a Surface scanner such as the stock Surface Scanning Module must be used while landed.
+ The stock surface scanner now shows data for all relevant resources - enjoy prospecting!
 
 UKS also works with SCANsat which offers a more immersive resource scanning experience and more detailed mapping options. Its a slightly more complex method than stock and has a few different options on how it can function.
 
@@ -1229,18 +1231,6 @@ Great for large bases and stations, or building larger vessels in orbit!
       </Text>
       <Tooltips />
     </Screen>
-    <Screen Name="4 - 2 Tundra Parts">
-      <BundleName>mkskspedia</BundleName>
-      <AssetPath>Assets/Pages/4 - 2 Tundra Parts.prefab</AssetPath>
-      <Title>Tundra Parts</Title>
-      <Background />
-      <Text>
-        <Text Name="Heading">
-          <Text>Tundra Parts</Text>
-        </Text>
-      </Text>
-      <Tooltips />
-    </Screen>
     <Screen Name="4 - 1 Tundra Modules">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/4 - 1 Tundra Modules.prefab</AssetPath>
@@ -1290,10 +1280,9 @@ The Colonist Module consumes ColonySupplies, and in return, suspends both habita
 See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
         </Text>
         <Text Name="Text (8)">
-          <Text>Designed to be one of the first parts of a long term colony, the Pioneer module features local logistics capabilities, basic training facilities, recycling facilities for life support, KerbNet access, and survey station capabilities for off-world construction.
-Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present.
-Seats 2 Crew.
-See 'Logistics', 'Med Bay &amp; Colony Supplies' &amp; 'Ship Building' for more info. . .</Text>
+          <Text>Logistics Module 2.5 Designed to be one of the first parts of a long term colony, the Pioneer module features local logistics capabilities, basic training facilities, recycling facilities for life support, KerbNet access, and survey station capabilities for off-world construction. Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present. Pioneer Modules may now perform a Resource Scan which will identify nearby 'Resource Lodes'. 
+Seats 2 Crew. 
+See 'Logistics', 'Med Bay &amp; Colony Supplies', ‘Active Resource Harvesting’ &amp; 'Ship Building' for more info. . .</Text>
         </Text>
         <Text Name="Text (9)">
           <Text>The Agricultural Support Module is designed to support off-world farming on an industrial scale, with three configurable bays that can be set up for fertilizer generation or water extraction from a variety of materials.
@@ -1316,24 +1305,19 @@ Seats 4 Crew.
 See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
         </Text>
         <Text Name="Text (12)">
-          <Text>A large, mobile recycling plant that can take broken parts and othe recyclables, and reclaim a portion of their raw materials.
-Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+          <Text>A large, mobile recycling plant that can take broken parts and other recyclables, and reclaim a portion of their raw materials. Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
 Seats 4 Crew.
-See 'Manufacturing' for more info . . .</Text>
+See 'Manufacturing' for more info . . .
+</Text>
         </Text>
         <Text Name="Text (13)">
-          <Text>The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium.
-DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel.
-Sutible for interplanetary operations, spacecraft, stations, and surface bases (radiators not included.) Centrifuge not suitable for Kerbal entertainment purposes.
-Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
+          <Text>Processing plant for nuclear fuel production and refinement.  The centrifuge processes Uraninite using machines spinning really fast and produces EnrichedUranium. DepletedFuel can also be reprocessed with USI Breeder technology, coaxing out every bit of EnrichedUranium left in the fuel. Suitable for interplanetary operations, spacecraft, stations, and surface bases (radiators not included.) Centrifuge not suitable for Kerbal entertainment purposes. Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency. 
 Seats 4 Crew.
-See 'Manufacturing' for more info . . .</Text>
+See 'Manufacturing' for more info . . .
+</Text>
         </Text>
         <Text Name="Text (14)">
-          <Text>Designed to take in vast amounts of dirt and extract it's useful contents, this industrial sifter redefines the meaning of 'Resource Exploitation'.
-Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency.
-Seats 4 Crew.
-See 'Manufacturing' &amp; 'Efficiency &amp; Load' for more info. . . </Text>
+          <Text>Designed to take in vast amounts of dirt and extract it's useful contents, this industrial sifter redefines the meaning of 'Resource Exploitation'. Ensure an experienced engineer is on board and is fully supplied with Machinery for optimal efficiency. When resources lodes are grappled, the sifter resource into a variety of other resources based on planetary composition (similar to how Dirt works).Seats 4 Crew. See 'Manufacturing' &amp; 'Efficiency &amp; Load' &amp; Active Resource Harvesting For More Information  . . .</Text>
         </Text>
         <Text Name="Text (15)">
           <Text>This module brings more advanced farming techniques to your colony. 
@@ -1375,6 +1359,61 @@ See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
       <Text />
       <Tooltips />
     </Screen>
+    <Screen Name="3 - 1 Duna Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/3 - 1 Duna Parts.prefab</AssetPath>
+      <Title>Duna Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (1)">
+          <Text>Duna Part List</Text>
+        </Text>
+        <Text Name="Text">
+          <Text>Designed to be one of the first parts of a long term colony, the Pioneer module features local logistics capabilities, basic training facilities, recycling facilities for life support, KerbNet access, and survey station capabilities for off-world construction. Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present. Pioneer Modules may now perform a Resource Scan which will identify nearby 'Resource Lodes'. See 'Logistics', 'Med Bay &amp; Colony Supplies', ‘Active Resource Harvesting’ &amp; 'Ship Building' for more info. . .</Text>
+        </Text>
+        <Text Name="Text (2)">
+          <Text>The MKS Kerbitat brings you all of the comforts of home, in a package guaranteed to have at least 30% less explosive decompression than our competitors.
+It can be configured as a life support recycler (stand-alone or planetary water filtration), or as shared living space for your Kerbals.
+Seats 2 Crew.
+See 'Habitation' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>When mishaps befall your Kerbals, or when Kerbals become homesick, simply transfer them into the medical bay, and any scientist on your crew can help them become happy and healthy again.
+Only works on Kerbals inside of the module, consumes ColonySupplies.  Includes medical facilities for two Kerbals.
+Seats 2 Crew.
+See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>The Logistics Center allows the vessel (and the resource warehouses attached directly to it) to participate in planetary logistics, taking or storing resources in planetary stockpiles.
+The Logistics Center will scan any directly attached warehouses for resources to send to the planetary pool.
+This is best used at points where resources are generated or consumed.
+Seats 2 Crew. Requires a Pilot.
+See 'Logistics for more info. . .</Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>Designed for longer term settlements, this advanced Colonization Module provides ample room and amenities for long term habitation.
+Supports a single Kerbal. Checking for Colony Rewards is not automatic, and is a function of the Pioneer Module.
+Rewards are accumulated with any MKS module, but can only be collected once a Pioneer Module is present. The Colonist Module consumes ColonySupplies, and in return, suspends both habitation timers for your Kerbals.
+Seats 1 Crew.
+See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>This module brings more advanced farming techniques to your colony.  While it's own space is limited, it can take advantage of 'Ranger' Agriculture Module in [GreenHouse] to increase efficiency. This module will help replenish your supplies through a variety of agriculture options.
+Ensure an experienced scientist is on board for optimal efficiency.
+Seats 2 Crew.
+See 'Manufacturing' &amp; 'Efficency &amp; Load' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (7)">
+          <Text>This module is outfitted to provide long range power distribution, including large battery stores, and a small nuclear power plant. Radiators not included.
+Seats 2 Crew. Requires Engineer to transfer power.
+See 'Power' for more info. . . </Text>
+        </Text>
+        <Text Name="Text (8)">
+          <Text>Example of a Duna Series base supplemented by Ranger Parts</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
     <Screen Name="3 - 0 Duna Series">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/3 - 0 Duna Series.prefab</AssetPath>
@@ -1394,7 +1433,7 @@ See 'Med Bay &amp; Colony Supplies' for more info. . . </Text>
     <Screen Name="2 - 1 Ranger Part List">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/2 - 1 Ranger Part List.prefab</AssetPath>
-      <Title />
+      <Title>Ranger Parts</Title>
       <Background />
       <Text>
         <Text Name="Text (1)">
@@ -1515,7 +1554,7 @@ When you just need a small amount of KIS storage.</Text>
     <Screen Name="2 - 0 Ranger Series Simple">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/2 - 0 Ranger Series Simple.prefab</AssetPath>
-      <Title />
+      <Title>Ranger Series</Title>
       <Background />
       <Text>
         <Text Name="Heading">
@@ -1532,7 +1571,7 @@ Inflatables will require the appropriate amount of MaterialKits and an engineer 
     <Screen Name="17 - 1 Kolonization Dashboard">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/17 - 1 Kolonization Dashboard.prefab</AssetPath>
-      <Title />
+      <Title>Kolonization Dashboard</Title>
       <Background />
       <Text>
         <Text Name="Text">
@@ -1565,7 +1604,7 @@ You can also now view the status of Planetary Logistics in the same Dashboard.</
     <Screen Name="17 - 0 Kolonization">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/17 - 0 Kolonization.prefab</AssetPath>
-      <Title />
+      <Title>Kolonization</Title>
       <Background />
       <Text>
         <Text Name="Text">
