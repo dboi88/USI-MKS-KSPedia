@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587160463308557129">
+<KSPedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mkskspedia" CreatedTime="-8587159687877574036">
   <Categories>
     <Category Name="USI - MKS">
       <Title>USI - MKS</Title>
@@ -16,8 +16,8 @@
           <Title>Ranger Series</Title>
           <TitleScreen>2 - 0 Ranger Series Simple</TitleScreen>
           <Screens>
-            <Screen>2 - 2 Ranger Inflatables</Screen>
             <Screen>2 - 1 Ranger Part List</Screen>
+            <Screen>2 - 2 Ranger Inflatables</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -33,8 +33,9 @@
           <Title>Tundra Series</Title>
           <TitleScreen>4 - 0 Tundra Series</TitleScreen>
           <Screens>
-            <Screen>4 - 3 Tundra Inflatables</Screen>
             <Screen>4 - 1 Tundra Modules</Screen>
+            <Screen>4 - 2 Tundra Parts</Screen>
+            <Screen>4 - 3 Tundra Inflatables</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -52,6 +53,7 @@
             <Screen>5 - 7 Advanced - KIS</Screen>
             <Screen>5 - 6a Base Examples</Screen>
             <Screen>5 - 61 Base Locations Cont.</Screen>
+            <Screen>5 - 9 Ground Tether - Base Stabilizer</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
@@ -61,16 +63,17 @@
           <Screens>
             <Screen>6 - 1 Scanning</Screen>
             <Screen>6 - 2 Extractable Resources</Screen>
+            <Screen>6 - 3 Resource Extraction</Screen>
             <Screen>6 - 4 Resource Processing</Screen>
             <Screen>6 - 5 Parts &amp; Supplies Manufacturing</Screen>
             <Screen>6 - 6 Advanced - Career Funds</Screen>
-            <Screen>6 - 3 Resource Extraction</Screen>
+            <Screen>6 - 7 Active Resource Harvesting</Screen>
           </Screens>
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Logistics">
           <Title>Logistics</Title>
-          <TitleScreen>7 - 1 Logistics </TitleScreen>
+          <TitleScreen>7 - 0 Logistics </TitleScreen>
           <Screens>
             <Screen>7 - 1 Logistics </Screen>
           </Screens>
@@ -130,7 +133,7 @@
           <Subcategories />
         </Subcategory>
         <Subcategory Name="Crew Training">
-          <Title>Crew Training</Title>
+          <Title>Crew Training &amp; Professions</Title>
           <TitleScreen>15 - 0 Crew Training</TitleScreen>
           <Screens />
           <Subcategories />
@@ -489,6 +492,87 @@ Storage for the resource being transferred is required on both vessels.
       </Text>
       <Tooltips />
     </Screen>
+    <Screen Name="7 - 0 Logistics ">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/7 - 0 Logistics .prefab</AssetPath>
+      <Title>Logistics</Title>
+      <Background />
+      <Text>
+        <Text Name="Text (2)">
+          <Text>Logistics </Text>
+        </Text>
+        <Text Name="Text">
+          <Text>In MKS, Logistics is the process of moving things from one vessel (the Warehouse) to another (the Consumer). This can happen via many different methods each with their own ranges and requirements, but all logistics use the same basic mechanism.
+
+Regardless of the specific method's range, a few things must be true. The Consumer must have the LogisticsConsumer module, the Warehouse must have the ResourceWarehouse module, and they must be within range.
+
+Consumers will also only request resources if they are below 50%, will never request more than 10% of their capacity at a time, will never request Machinery, and will only request EC if they are hooked up into a proper Power Coupling/Distribution network. See 'Power' for more info . . .</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>Scavenging (150m)</Text>
+        </Text>
+        <Text Name="Text (3)">
+          <Text>When a vessel is short on stuff, the Kerbals can grab what they need from nearby vessels and debris.
+
+Example: If your base is running out of life support, just drop a box of stuff nearby, and it will automatically be transferred into your ship as necessary! You must have available storage for the resource you want to pull.</Text>
+        </Text>
+        <Text Name="Text (4)">
+          <Text>Resource Distribution (2 km)</Text>
+        </Text>
+        <Text Name="Text (5)">
+          <Text>Sometimes you need stuff from far away. Even without dedicated storage of their own, these vessels can relay resources between parts within range so long as they are piloted. Qualifying rover parts include the Karibou Expedition Rover cockpit, and the surface Pioneer Module.
+</Text>
+        </Text>
+        <Text Name="Text (6)">
+          <Text>Example: Your mining rig is over a kilometer away from your processing plant. Just toss a qualifying rover in range of both, and resources will flow automatically to the ship that needs them. You must have available storage for the resource you want to pull.</Text>
+        </Text>
+        <Text Name="Text (10)">
+          <Text>Planetary Logistics</Text>
+        </Text>
+        <Text Name="Text (11)">
+          <Text>Sometimes the stuff you want is on the other side of the planet. And sometimes you make so much stuff that you run out of a place to put it. Planetary Logistics is like a giant warehouse shared by every vessel on the planet, and uses special warehouses that can tap into planetary storage (which is infinite!).</Text>
+        </Text>
+        <Text Name="Text (12)">
+          <Text>If the warehouse has too much stuff, it puts it in storage. If it has too little, it pulls it out. There's a GUI where you can see how much stuff you have in the giant global warehouse. Requires a plioted Logistics Module. Requires a pilot to pull resources from Planetary Logistics, resources can be pushed to Planetary Logistics without a crew. Welcome back unmanned mining outposts.
+ 
+Local Logistics:  Resources may now be manually transferred between any two craft within 150m provided crew are present on at least one of the two vessels.  This GUI may be accessed from the Kolonization Dashboard.
+</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="6 - 7 Active Resource Harvesting">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/6 - 7 Active Resource Harvesting.prefab</AssetPath>
+      <Title>Active Resource Harvesting</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Resource Processing</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>Pioneer Modules may now perform a Resource Scan which will identify nearby 'Resource Lodes'.  These are physical objects that must be grappled, at which point both the Range and Tundra regolith sifters can convert the ResourceLode resource into a variety of other resources based on planetary composition (similar to how Dirt works today). These however cannot be converted when the craft is not focused, hence ‘Active’. Larger resources can also be found using the ‘Orbital Survey Scanner’, these are 100 times the size of local nodes and will require you to either travel long distances with  your equipment or bring the resource lode to your base in inventive ways. On larger bodies the local resource lodes will spawn at distance greater than the 2km resource range of the Karibou Rover Cab. You can invent your own methods for moving these beasts. Umbra Space Industries take no responsibility for any damage to Rover Cabs caused by excessive ramming.
+</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>Here is an example craft. Notice;
+Karibou configurable Kontainers so that we can choose from any of the MKS resources to sift from the resource lode.
+ We can also use ‘Local Logistics’ to push resources to a nearby base up to 2km.
+The microwave power receiver to provide wireless power transfer from nearby bases up to 2km.
+The Karibou VTOL engines allow us to ‘bunny hop’ between lodes.
+The Karibou Rover Cab extends our Logistics range to 2km.
+The ‘Ranger’ Sifter allows us to convert the resource lode.
+The Docking Claw on the rear to allow us to grapple the lode. You can also use KIS pipes or FlexOTubes.
+</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>Here is an example of a craft to move far away lodes closer to a base.
+
+These craft files are available for download on the MKS Github Wiki</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
     <Screen Name="6 - 6 Advanced - Career Funds">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/6 - 6 Advanced - Career Funds.prefab</AssetPath>
@@ -802,6 +886,27 @@ Step 6</Text>
         </Text>
         <Text Name="Text">
           <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
+    <Screen Name="5 - 9 Ground Tether - Base Stabilizer">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/5 - 9 Ground Tether - Base Stabilizer.prefab</AssetPath>
+      <Title>Ground Tether</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading (1)">
+          <Text>Ground Tether
+
+
+</Text>
+        </Text>
+        <Text Name="Text (1)">
+          <Text>Ground Tether - Base Stabilizer
+
+Ground tether is provided on over 50 different MKS parts. If you’ve built and MKS base you will have this feature. On any enabled part select ‘Enable Ground Tether’. This will turn on the Ground Tether for the whole craft/base. You do not have to enable it on every part. Ground tether secures your base to the surface of a body to ensure it will not shift on slopes or during physics load.
+</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1231,6 +1336,66 @@ Great for large bases and stations, or building larger vessels in orbit!
       </Text>
       <Tooltips />
     </Screen>
+    <Screen Name="4 - 2 Tundra Parts">
+      <BundleName>mkskspedia</BundleName>
+      <AssetPath>Assets/Pages/4 - 2 Tundra Parts.prefab</AssetPath>
+      <Title>Tundra Parts</Title>
+      <Background />
+      <Text>
+        <Text Name="Heading">
+          <Text>Tundra Parts</Text>
+        </Text>
+        <Text Name="Heading (1)">
+          <Text>'Tundra' 2.5m Adapter
+An attachment cap suitable for 2.5m parts. Comes automatically applied to all 2.5m 'Tundra' Modules when using the outer node.</Text>
+        </Text>
+        <Text Name="Heading (2)">
+          <Text>'Tundra' 3.75m Adapter
+An attachment cap suitable for 3.75m parts. Comes automatically applied to all 3.75m 'Tundra' Modules when using the outer node.</Text>
+        </Text>
+        <Text Name="Heading (3)">
+          <Text>'Tundra' Airlock - An airlock module suitable for use with the 'Tundra' series for orbital or surface bases. Seats 4 Crew. Provides no Habitation value.
+1,000l KIS Storage</Text>
+        </Text>
+        <Text Name="Heading (4)">
+          <Text>'Tundra' Mini Airlock
+A smaller airlock module suitable for use with the 'Tundra' series for orbital or surface bases. Seats 1 Crew. Provides no Habitation value.</Text>
+        </Text>
+        <Text Name="Heading (5)">
+          <Text>'Tundra' 2.5M Hub (Short)
+When you have to branch your base out, use this hub to link trusses and other modules.  Suitable for Tundra 2.5m modules and other base components.
+3,000l KIS Storage.</Text>
+        </Text>
+        <Text Name="Heading (6)">
+          <Text>'Tundra' 2.5M Hub
+When you have to branch your base out, use this hub to link trusses and other modules.  Suitable for Tundra 2.5m modules and other base components.
+3,000l KIS Storage.</Text>
+        </Text>
+        <Text Name="Heading (7)">
+          <Text>'Tundra' MultiHub
+The Multi-Hub features attachment points at heights suitable at MKS 'Ranger' and 'Tundra' (both 2.5m and 3.75m) product lines. 10,000l KIS Storage
+See 'Base Construction' for more info . . . </Text>
+        </Text>
+        <Text Name="Heading (8)">
+          <Text>MiniTruss
+A smaller tube suitable for connecting various MKS modules.  Attachment styles include 'Ranger' style doughnut connectors, standard 1.25m nodes, and flush mounts suitable for linking trusses together, or attaching to larger surfaces.</Text>
+        </Text>
+        <Text Name="Heading (9)">
+          <Text>MultiTruss
+A tube suitable for connecting various MKS modules.  Attachment styles include 'Ranger' style doughnut connectors, standard 1.25m nodes, and flush mounts suitable for linking trusses together, or attaching to larger surfaces.</Text>
+        </Text>
+        <Text Name="Heading (10)">
+          <Text>'Salamander' Command Pod
+A ruggedized two man pod with an integrated avionics system and a basic life support recycler, ideal for colony dropships.</Text>
+        </Text>
+        <Text Name="Heading (11)">
+          <Text>'Scout' Landing Module - Mk2
+Light, with a wide landing stance, the Scout landing module is ideal for landing your first colony modules, even on rough terrain. Features 'weight transfer' to automatically balance the weight of 'Ranger' modules attached to the sides. 1,000l KIS Storage
+See 'Base Construction for more info . . .</Text>
+        </Text>
+      </Text>
+      <Tooltips />
+    </Screen>
     <Screen Name="4 - 1 Tundra Modules">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/4 - 1 Tundra Modules.prefab</AssetPath>
@@ -1574,10 +1739,10 @@ Inflatables will require the appropriate amount of MaterialKits and an engineer 
       <Title>Kolonization Dashboard</Title>
       <Background />
       <Text>
-        <Text Name="Text">
-          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
+        <Text Name="Text (1)">
+          <Text>Kolonization</Text>
         </Text>
-        <Text Name="Heading (1)">
+        <Text Name="Text">
           <Text>You can access the Kolonization Dashboard by pressing:
 
 From here you can monitor your Kolony Statistics, Local Logistics, Planetary Logistics &amp; Recruit Kolonists.
@@ -1593,10 +1758,8 @@ Local Logistics
 You can now control and monitor local logistics.
 
 Planetary Logistics
-You can also now view the status of Planetary Logistics in the same Dashboard.</Text>
-        </Text>
-        <Text Name="Heading (2)">
-          <Text>Kolonization Dashboard</Text>
+You can also now view the status of Planetary Logistics in the same Dashboard.
+</Text>
         </Text>
       </Text>
       <Tooltips />
@@ -1604,32 +1767,24 @@ You can also now view the status of Planetary Logistics in the same Dashboard.</
     <Screen Name="17 - 0 Kolonization">
       <BundleName>mkskspedia</BundleName>
       <AssetPath>Assets/Pages/17 - 0 Kolonization.prefab</AssetPath>
-      <Title>Kolonization</Title>
+      <Title />
       <Background />
       <Text>
+        <Text Name="Text (1)">
+          <Text>Kolonization</Text>
+        </Text>
         <Text Name="Text">
-          <Text>Permanent Base Parts in both 2.5m and 3.75m form factors. Conversion rates for resource production and construction are much larger than the previous Duna modules. Also includes more advanced modules like the Nuclear Fuel Processor. Fully self-sustaining bases are not possible without using Tundra Modules. Tundra modules do not have any landing leg’s which makes them perfect to us as space station parts. It is recommended to use the Cradles from USI Konstruction for horizontal placement or the included ‘Scout' Landing Module for vertical placement.</Text>
-        </Text>
-        <Text Name="Heading (1)">
-          <Text>You can access the Kolonization Dashboard by pressing:
+          <Text>Kolonization Statistics &amp; Bonuses
 
-From here you can monitor your Kolony Statistics, Local Logistics, Planetary Logistics &amp; Recruit Kolonists.
+Kolonization statistics are rewarded based on the crew that are present on a particular body. Pilots increase the Kolonization bonus, Engineers increase the Geology bonus and Scientist increase the Botany bonus. The new professions also provide bonuses see ‘Crew Training &amp; Professions’ . . .
 
-Kolony Statistics
-Kolony Bonuses are accrued by spending time performing the relevant tasks on the relevant body. Geology is earned by mining activities.  Botany is earned by Greenhouses and agricultural modules. Kolonization is earned by active crew members.
+Kolonization Rewards
 
-Recruit Kolonists
-You can now recruit Kolonists for 10k per crew member. Each of the 9 types provides different abilities and bonuses.
-You can also recruit regular crew members as you are unlikely to be able to use the astronaut facility anymore. You can also grab a random Kerbal for only 1k!
+Kolonization Rewards are accrued on any body with an MKS part and crew present. They can be collected using a pioneer module and they are collected on a per body basis(no need to have a pioneer module on every base). Rewards are given in the form of Funds, Science &amp; Rep. For more information on which professions provide which rewards see ‘Crew Training &amp; Professions’ . . .
 
-Local Logistics
-You can now control and monitor local logistics.
+Full Kolonization
 
-Planetary Logistics
-You can also now view the status of Planetary Logistics in the same Dashboard.</Text>
-        </Text>
-        <Text Name="Heading (2)">
-          <Text>Kolonization Dashboard</Text>
+Any Kerbal on a planet that has a Kolonization level of 500% and is in a vessel with a habitation rating of 1 year or more will be immune to habitation effects, as this world is now 'Kolonized'.</Text>
         </Text>
       </Text>
       <Tooltips />

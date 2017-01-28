@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587160467076342634">
+<KSPBundleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" UrlName="mkskspedia" Name="mkskspedia" CreatedTime="-8587159687837681755">
   <Author />
   <Info />
   <Assets>
@@ -25,6 +25,7 @@
     <Asset Name="3 - 1 Duna Parts" Path="Assets/Pages/3 - 1 Duna Parts.prefab" Type="GameObject" Url="Pages/3 - 1 Duna Parts" AutoLoad="false" />
     <Asset Name="4 - 0 Tundra Series" Path="Assets/Pages/4 - 0 Tundra Series.prefab" Type="GameObject" Url="Pages/4 - 0 Tundra Series" AutoLoad="false" />
     <Asset Name="4 - 1 Tundra Modules" Path="Assets/Pages/4 - 1 Tundra Modules.prefab" Type="GameObject" Url="Pages/4 - 1 Tundra Modules" AutoLoad="false" />
+    <Asset Name="4 - 2 Tundra Parts" Path="Assets/Pages/4 - 2 Tundra Parts.prefab" Type="GameObject" Url="Pages/4 - 2 Tundra Parts" AutoLoad="false" />
     <Asset Name="4 - 3 Tundra Inflatables" Path="Assets/Pages/4 - 3 Tundra Inflatables.prefab" Type="GameObject" Url="Pages/4 - 3 Tundra Inflatables" AutoLoad="false" />
     <Asset Name="5 - 0 Base Construction" Path="Assets/Pages/5 - 0 Base Construction.prefab" Type="GameObject" Url="Pages/5 - 0 Base Construction" AutoLoad="false" />
     <Asset Name="5 - 1 Konstruction Parts0" Path="Assets/Pages/5 - 1 Konstruction Parts0.prefab" Type="GameObject" Url="Pages/5 - 1 Konstruction Parts0" AutoLoad="false" />
@@ -37,6 +38,7 @@
     <Asset Name="5 - 61 Base Locations Cont." Path="Assets/Pages/5 - 61 Base Locations Cont..prefab" Type="GameObject" Url="Pages/5 - 61 Base Locations Cont" AutoLoad="false" />
     <Asset Name="5 - 6a Base Examples" Path="Assets/Pages/5 - 6a Base Examples.prefab" Type="GameObject" Url="Pages/5 - 6a Base Examples" AutoLoad="false" />
     <Asset Name="5 - 7 Advanced - KIS" Path="Assets/Pages/5 - 7 Advanced - KIS.prefab" Type="GameObject" Url="Pages/5 - 7 Advanced - KIS" AutoLoad="false" />
+    <Asset Name="5 - 9 Ground Tether - Base Stabilizer" Path="Assets/Pages/5 - 9 Ground Tether - Base Stabilizer.prefab" Type="GameObject" Url="Pages/5 - 9 Ground Tether - Base Stabilizer" AutoLoad="false" />
     <Asset Name="6 - 0 Mining &amp; Manufacturing " Path="Assets/Pages/6 - 0 Mining &amp; Manufacturing .prefab" Type="GameObject" Url="Pages/6 - 0 Mining &amp; Manufacturing " AutoLoad="false" />
     <Asset Name="6 - 1 Scanning" Path="Assets/Pages/6 - 1 Scanning.prefab" Type="GameObject" Url="Pages/6 - 1 Scanning" AutoLoad="false" />
     <Asset Name="6 - 2 Extractable Resources" Path="Assets/Pages/6 - 2 Extractable Resources.prefab" Type="GameObject" Url="Pages/6 - 2 Extractable Resources" AutoLoad="false" />
@@ -44,6 +46,8 @@
     <Asset Name="6 - 4 Resource Processing" Path="Assets/Pages/6 - 4 Resource Processing.prefab" Type="GameObject" Url="Pages/6 - 4 Resource Processing" AutoLoad="false" />
     <Asset Name="6 - 5 Parts &amp; Supplies Manufacturing" Path="Assets/Pages/6 - 5 Parts &amp; Supplies Manufacturing.prefab" Type="GameObject" Url="Pages/6 - 5 Parts &amp; Supplies Manufacturing" AutoLoad="false" />
     <Asset Name="6 - 6 Advanced - Career Funds" Path="Assets/Pages/6 - 6 Advanced - Career Funds.prefab" Type="GameObject" Url="Pages/6 - 6 Advanced - Career Funds" AutoLoad="false" />
+    <Asset Name="6 - 7 Active Resource Harvesting" Path="Assets/Pages/6 - 7 Active Resource Harvesting.prefab" Type="GameObject" Url="Pages/6 - 7 Active Resource Harvesting" AutoLoad="false" />
+    <Asset Name="7 - 0 Logistics " Path="Assets/Pages/7 - 0 Logistics .prefab" Type="GameObject" Url="Pages/7 - 0 Logistics " AutoLoad="false" />
     <Asset Name="7 - 1 Logistics " Path="Assets/Pages/7 - 1 Logistics .prefab" Type="GameObject" Url="Pages/7 - 1 Logistics " AutoLoad="false" />
     <Asset Name="8 - 0 Habitation" Path="Assets/Pages/8 - 0 Habitation.prefab" Type="GameObject" Url="Pages/8 - 0 Habitation" AutoLoad="false" />
     <Asset Name="8 - 1 Habitation Parts" Path="Assets/Pages/8 - 1 Habitation Parts.prefab" Type="GameObject" Url="Pages/8 - 1 Habitation Parts" AutoLoad="false" />
